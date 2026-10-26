@@ -1,0 +1,5 @@
+field,ask_below_bid,ask_equals_bid,spread_min_pips,spread_median_pips,spread_p99_pips,spread_max_pips
+open,196,1192,-0.3,0.1,3.29,5.8
+high,248,1351,-0.4,0.1,3.2,5.9
+low,220,1315,-0.7,0.1,3.1,5.4
+close,196,1192,-0.3,0.1,3.29,5.8

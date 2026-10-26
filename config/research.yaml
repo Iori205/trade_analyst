@@ -1,0 +1,33 @@
+# EURUSD research configuration: data-audit stage only.
+# Paths are relative to the project root.
+
+project:
+  symbol: EURUSD
+
+data:
+  raw_dir: data                         # HistData folders, read-only
+  raw_csv_glob: "**/DAT_ASCII_EURUSD_M1_*.csv"
+  parquet_files:                        # existing derived files, UNVERIFIED
+    1m: eurusd_1m.parquet
+    15m: eurusd_15m.parquet
+    1h: eurusd_1h.parquet
+    4h: eurusd_4h.parquet
+
+timezone:
+  # The source timezone is NOT verified. All timestamps are kept as naive
+  # source-clock values and no conversion is applied anywhere in the audit.
+  # HistData documents its ASCII M1 data as "EST without daylight saving"
+  # (fixed UTC-5); treat that as a hypothesis until the evidence in the
+  # audit report confirms or refutes it.
+  source_timezone: UNVERIFIED
+  documented_by_vendor: "EST, no DST (UTC-5)"
+
+audit:
+  expected_bar_minutes: 1
+  short_gap_max_minutes: 30             # intraweek gaps up to this length are "short"
+  weekend_max_hours: 56                 # Fri/Sat -> Sun/Mon gaps up to this length are "weekend"
+  holiday_month_days: ["12-24", "12-25", "12-26", "12-31", "01-01", "01-02"]
+  report_top_n: 25
+
+reports:
+  dir: reports

@@ -1,0 +1,29 @@
+{
+  "file": {
+    "bytes": 441558,
+    "gzip_magic": false,
+    "data_rows": 5010,
+    "trailing_newline": true
+  },
+  "date_order": {
+    "first_field_max": 12,
+    "second_field_max": 31,
+    "verdict": "MM/DD/YYYY (established: second field exceeds 12)"
+  },
+  "ordering": {
+    "rows": 5010,
+    "first_label": "2019-12-29 22:03:00",
+    "last_label": "2020-01-03 21:59:00",
+    "min_label": "2019-12-29 22:03:00",
+    "max_label": "2020-01-03 21:59:00",
+    "monotonic_increasing": true,
+    "rows_not_after_previous": 0,
+    "duplicate_timestamp_rows": 0,
+    "duplicate_timestamps": 0,
+    "nonzero_seconds": 0
+  },
+  "dukascopy_files": [
+    "EUR-USD_1Minute_BID_2025-03-19_00_00-23_59_Etc_UTC.csv"
+  ],
+  "dukascopy_overlap": []
+}

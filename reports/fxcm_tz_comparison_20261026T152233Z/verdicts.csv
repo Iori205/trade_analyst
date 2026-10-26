@@ -1,0 +1,6 @@
+candidate,cells_filled,cells_passed,cells_total,contradicted_in,cells_missing_evidence,accepted,recommendable
+C1_fixed_utc-5,6,3,6,before_2018-12-16/both_summer (0%); before_2018-12-16/us_summer_eu_standard (0%); from_2018-12-16/both_summer (0%),,False,False
+C2_america_new_york,6,5,6,from_2018-12-16/us_summer_eu_standard (0%),,False,False
+C3_zurich_minus_6h,6,5,6,before_2018-12-16/us_summer_eu_standard (0%),,False,False
+C4_h2_then_h3_at_2018-12-16,6,6,6,,,True,True
+C4r_h3_then_h2_at_2018-12-16,6,4,6,before_2018-12-16/us_summer_eu_standard (0%); from_2018-12-16/us_summer_eu_standard (0%),,False,False

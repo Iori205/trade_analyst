@@ -1,0 +1,33 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Market data: large, versioned by checksum rather than Git
+/data/
+*.parquet
+
+# Correspondence with personal data: kept locally, referenced by SHA-256 in docs/approvals/fxcm_batch1.md
+docs/approvals/fxcm_email_*.txt
+
+# Report outputs containing vendor price rows or minute-level comparisons (HistData / FXCM / Dukascopy).
+# They stay on local disk only; aggregate summaries are tracked.
+reports/**/duplicates.csv
+reports/**/duplicates_conflict_context.csv
+reports/**/duplicates_conflicting.csv
+reports/**/duplicates_out_of_order.csv
+reports/**/dst_repeated_block_continuity.csv
+reports/**/histdata_best.csv
+reports/**/histdata_exact.csv
+reports/**/histdata_largest_differences.csv
+reports/**/histdata_predictions.csv
+reports/fxcm_audit_*/schema.csv
+reports/reference_compare_*/best.csv
+reports/reference_compare_*/exact.csv
+reports/**/top_*.csv
+reports/**/missing_*.csv
+reports/**/predictions.csv
+reports/**/spread_by_hour.csv
+reports/**/spread_anomalies.csv

@@ -1,0 +1,49 @@
+{
+  "pearson": {
+    "measure": "pearson",
+    "best_offset_minutes": 300,
+    "best_offset_hours": 5.0,
+    "best_correlation": 1.0,
+    "best_shared_minutes": 1437,
+    "runner_up_offset_minutes": 331,
+    "runner_up_correlation": 0.0898,
+    "peak_ratio": 11.13,
+    "correlation_ge_min": true,
+    "peak_ratio_ge_min": true,
+    "shared_minutes_ge_min": true,
+    "decisive_day": true
+  },
+  "spearman": {
+    "measure": "spearman",
+    "best_offset_minutes": 300,
+    "best_offset_hours": 5.0,
+    "best_correlation": 1.0,
+    "best_shared_minutes": 1437,
+    "runner_up_offset_minutes": 476,
+    "runner_up_correlation": 0.0924,
+    "peak_ratio": 10.82,
+    "correlation_ge_min": true,
+    "peak_ratio_ge_min": true,
+    "shared_minutes_ge_min": true,
+    "decisive_day": true
+  },
+  "pearson_rollover_excluded": {
+    "measure": "pearson",
+    "best_offset_minutes": 300,
+    "best_offset_hours": 5.0,
+    "best_correlation": 1.0,
+    "best_shared_minutes": 1416,
+    "runner_up_offset_minutes": 269,
+    "runner_up_correlation": 0.0897,
+    "peak_ratio": 11.15,
+    "correlation_ge_min": true,
+    "peak_ratio_ge_min": true,
+    "shared_minutes_ge_min": true,
+    "decisive_day": true
+  },
+  "null_check": {
+    "far_offsets": 1382,
+    "far_abs_corr_median": 0.0175,
+    "far_abs_corr_p99": 0.0611
+  }
+}

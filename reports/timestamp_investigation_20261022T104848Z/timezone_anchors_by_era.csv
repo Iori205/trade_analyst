@@ -1,0 +1,13 @@
+era,regime,anchor,weekdays,observed_time,strength_ratio_top_vs_second,decisive,strength_07:30,strength_08:30,strength_09:30,H1_fixed_utc-5_predicts,H1_fixed_utc-5_consistent,H2_america_new_york_predicts,H2_america_new_york_consistent,H3_ny_offset_eu_dates_predicts,H3_ny_offset_eu_dates_consistent,strength_10:00,strength_11:00,strength_12:00
+2015-2018,both_standard,us_0830_release,361,08:30,2.43,True,1.09,3.11,1.28,08:30,True,08:30,True,08:30,True,,,
+2015-2018,both_standard,london_1600_fix,361,11:00,1.32,False,,,,11:00,True,11:00,True,11:00,True,1.21,1.6,0.93
+2015-2018,both_summer,us_0830_release,615,08:30,3.29,True,1.01,4.36,1.33,07:30,False,08:30,True,08:30,True,,,
+2015-2018,both_summer,london_1600_fix,615,11:00,1.38,False,,,,10:00,False,11:00,True,11:00,True,1.17,1.61,0.98
+2015-2018,us_summer_eu_standard,us_0830_release,65,08:30,3.18,True,0.63,3.36,1.06,07:30,False,08:30,True,07:30,False,,,
+2015-2018,us_summer_eu_standard,london_1600_fix,65,12:00,1.36,False,,,,11:00,False,12:00,True,11:00,False,1.04,1.07,1.46
+2019-2026,both_standard,us_0830_release,683,08:30,2.84,True,0.89,4.06,1.43,08:30,True,08:30,True,08:30,True,,,
+2019-2026,both_standard,london_1600_fix,683,11:00,1.13,False,,,,11:00,True,11:00,True,11:00,True,1.25,1.41,0.92
+2019-2026,both_summer,us_0830_release,1175,08:30,3.05,True,0.91,3.99,1.31,07:30,False,08:30,True,08:30,True,,,
+2019-2026,both_summer,london_1600_fix,1175,11:00,1.15,False,,,,10:00,False,11:00,True,11:00,True,1.25,1.43,0.95
+2019-2026,us_summer_eu_standard,us_0830_release,140,07:30,2.13,True,2.51,1.11,1.18,07:30,True,08:30,False,07:30,True,,,
+2019-2026,us_summer_eu_standard,london_1600_fix,140,11:00,1.33,False,,,,11:00,True,12:00,False,11:00,True,1.1,1.47,0.91

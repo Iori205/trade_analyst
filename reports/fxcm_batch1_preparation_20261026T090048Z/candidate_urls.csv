@@ -1,0 +1,6 @@
+fxcm_year,fxcm_week,url,intended_trading_week_monday,regime_weekdays,in_planned_list,available_in_planned_list,probe_2026_10_22_status,probe_total_bytes,probe_last_modified,planned_destination
+2018,12,https://candledata.fxcorporate.com/m1/EURUSD/2018/12.csv.gz,2018-03-19,us_summer_eu_standard,True,True,206,146996,"Thu, 29 Mar 2018 09:46:58 GMT",data/reference/fxcm/m1/EURUSD/2018/12.csv.gz
+2018,43,https://candledata.fxcorporate.com/m1/EURUSD/2018/43.csv.gz,2018-10-22,both_summer,True,True,206,145937,"Sun, 28 Oct 2018 22:03:21 GMT",data/reference/fxcm/m1/EURUSD/2018/43.csv.gz
+2018,44,https://candledata.fxcorporate.com/m1/EURUSD/2018/44.csv.gz,2018-10-29,us_summer_eu_standard,True,True,206,144833,"Sun, 04 Nov 2018 23:03:23 GMT",data/reference/fxcm/m1/EURUSD/2018/44.csv.gz
+2019,11,https://candledata.fxcorporate.com/m1/EURUSD/2019/11.csv.gz,2019-03-11,us_summer_eu_standard,True,True,206,138756,"Sun, 17 Mar 2019 22:03:21 GMT",data/reference/fxcm/m1/EURUSD/2019/11.csv.gz
+2019,44,https://candledata.fxcorporate.com/m1/EURUSD/2019/44.csv.gz,2019-10-28,us_summer_eu_standard,False,not listed,206,132928,"Mon, 04 Nov 2019 05:10:12 GMT",data/reference/fxcm/m1/EURUSD/2019/44.csv.gz

@@ -1,0 +1,14 @@
+year,iso_weeks_in_year,weeks_served_206,week_53_served,week_1_served,us_week1_sunday,iso_w01_monday,iso_and_us_week_numbers_agree,week53_served_but_not_an_iso_week
+2012,52,53,True,True,2012-01-01,2012-01-02,True,True
+2015,53,52,False,True,2014-12-28,2014-12-29,True,False
+2016,52,52,False,True,2015-12-27,2016-01-04,False,False
+2017,52,52,False,True,2017-01-01,2017-01-02,True,False
+2018,52,53,True,True,2017-12-31,2018-01-01,True,True
+2019,52,52,True,False,2018-12-30,2018-12-31,True,True
+2020,53,52,True,False,2019-12-29,2019-12-30,True,False
+2021,52,52,False,True,2020-12-27,2021-01-04,False,False
+2022,52,52,False,True,2021-12-26,2022-01-03,False,False
+2023,52,53,True,True,2023-01-01,2023-01-02,True,True
+2024,52,48,False,False,2023-12-31,2024-01-01,True,False
+2025,52,49,True,False,2024-12-29,2024-12-30,True,True
+2026,53,27,False,True,2025-12-28,2025-12-29,True,False

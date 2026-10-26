@@ -1,0 +1,7 @@
+era,regime,days,excluded_days,decisive_days,best_offsets_seen,match_H1_fixed_utc-5,match_H2_america_new_york,match_H3_zurich_minus_6h
+before_2018-12-16,both_standard,6,1,5,+300x5,5,5,5
+before_2018-12-16,both_summer,6,1,5,+240x5,0,5,5
+before_2018-12-16,us_summer_eu_standard,12,2,10,+240x10,0,10,0
+from_2018-12-16,both_standard,12,4,8,+300x8,8,8,8
+from_2018-12-16,both_summer,12,2,10,+240x10,0,10,10
+from_2018-12-16,us_summer_eu_standard,18,3,15,+300x15,15,0,15

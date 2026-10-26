@@ -1,0 +1,3 @@
+event,utc,basis,label_tested,max_abs_return_bp_at_event,max_abs_return_bp_5min_before,day_median_abs_return_bp,ratio_event_to_day_median
+FOMC minutes (Dec 10-11 meeting),2020-01-03 19:00,Federal Reserve press release: 2:00 p.m. EST,2020-01-03 19:00,1.97,0.99,0.448,4.4
+ISM manufacturing (Dec),2020-01-03 15:00,10:00 a.m. ET per a market preview (secondary source),2020-01-03 15:00,6.54,1.7,0.448,14.6

@@ -1,0 +1,35 @@
+{
+  "pearson": {
+    "measure": "pearson",
+    "best_offset_minutes": 300,
+    "best_offset_hours": 5.0,
+    "best_correlation": 0.9864,
+    "best_shared_minutes": 4977,
+    "runner_up_offset_minutes": -692,
+    "runner_up_correlation": 0.054,
+    "peak_ratio": 18.26,
+    "correlation_ge_min": true,
+    "peak_ratio_ge_min": true,
+    "shared_minutes_ge_min": true,
+    "decisive_day": true
+  },
+  "spearman": {
+    "measure": "spearman",
+    "best_offset_minutes": 300,
+    "best_offset_hours": 5.0,
+    "best_correlation": 0.9738,
+    "best_shared_minutes": 4977,
+    "runner_up_offset_minutes": -708,
+    "runner_up_correlation": 0.055,
+    "peak_ratio": 17.7,
+    "correlation_ge_min": true,
+    "peak_ratio_ge_min": true,
+    "shared_minutes_ge_min": true,
+    "decisive_day": true
+  },
+  "null_check": {
+    "far_offsets": 1382,
+    "far_abs_corr_median": 0.01,
+    "far_abs_corr_p99": 0.0402
+  }
+}

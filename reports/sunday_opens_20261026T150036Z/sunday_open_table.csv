@@ -1,0 +1,7 @@
+era,regime,weeks,first_bar_times_seen,H1_fixed_utc-5_predicts,H1_fixed_utc-5_consistent_weeks,H2_america_new_york_predicts,H2_america_new_york_consistent_weeks,H3_zurich_minus_6h_predicts,H3_zurich_minus_6h_consistent_weeks
+before_2018-12-16,both_standard,67,"17:00x64, 17:07x1, 17:10x1, 17:30x1",17:00,64,17:00,64,17:00,64
+before_2018-12-16,both_summer,123,17:00x123,16:00,0,17:00,123,17:00,123
+before_2018-12-16,us_summer_eu_standard,13,17:00x13,16:00,0,17:00,13,16:00,0
+from_2018-12-16,both_standard,138,"17:00x120, 17:01x3, 17:02x2, 17:03x3, 17:04x5, 17:05x1, 17:06x2, 18:00x2",17:00,120,17:00,120,17:00,120
+from_2018-12-16,both_summer,236,"17:00x176, 17:01x13, 17:02x6, 17:03x6, 17:04x24, 17:05x1, 18:00x8, 19:00x1, 23:00x1",16:00,0,17:00,176,17:00,176
+from_2018-12-16,us_summer_eu_standard,28,"16:00x22, 16:01x1, 16:04x1, 16:05x1, 16:06x1, 17:00x2",16:00,22,17:00,2,16:00,22

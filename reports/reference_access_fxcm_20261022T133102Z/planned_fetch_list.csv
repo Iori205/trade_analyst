@@ -1,0 +1,76 @@
+sample_id,iso_year,iso_week,week_monday,note,available,bytes,documented_in_readme
+A1,2015,3,2015-01-12,winter control,True,156410.0,False
+A3,2015,10,2015-03-02,spring US-only DST window,True,155829.0,False
+A3,2015,11,2015-03-09,spring US-only DST window,True,157613.0,False
+A3,2015,12,2015-03-16,spring US-only DST window,True,158934.0,False
+A3,2015,13,2015-03-23,spring US-only DST window,True,152619.0,False
+A2,2015,29,2015-07-13,summer control,True,151176.0,False
+A3,2015,43,2015-10-19,autumn US-only DST window,True,150527.0,False
+A3,2015,44,2015-10-26,autumn US-only DST window,True,147616.0,False
+A1,2016,2,2016-01-11,winter control,True,154934.0,False
+A3,2016,10,2016-03-07,spring US-only DST window,True,151871.0,False
+A3,2016,11,2016-03-14,spring US-only DST window,True,150645.0,False
+A3,2016,12,2016-03-21,spring US-only DST window,True,142801.0,False
+A2,2016,28,2016-07-11,summer control,True,148626.0,False
+A3,2016,43,2016-10-24,autumn US-only DST window,True,143199.0,False
+A3,2016,44,2016-10-31,autumn US-only DST window,True,144581.0,False
+A1,2017,2,2017-01-09,winter control,True,154425.0,True
+A1,2017,3,2017-01-16,winter control,True,152522.0,True
+A3,2017,10,2017-03-06,spring US-only DST window,True,145300.0,True
+A3,2017,11,2017-03-13,spring US-only DST window,True,145439.0,True
+A3,2017,12,2017-03-20,spring US-only DST window,True,144697.0,True
+A2,2017,28,2017-07-10,summer control,True,142103.0,True
+A2,2017,29,2017-07-17,summer control,True,144906.0,True
+A3,2017,43,2017-10-23,autumn US-only DST window,True,143016.0,True
+A3,2017,44,2017-10-30,autumn US-only DST window,True,142528.0,True
+A1,2018,2,2018-01-08,winter control,True,145564.0,True
+A1,2018,3,2018-01-15,winter control,True,153069.0,True
+A3,2018,10,2018-03-05,spring US-only DST window,True,148278.0,True
+A3,2018,11,2018-03-12,spring US-only DST window,True,143342.0,True
+A3,2018,12,2018-03-19,spring US-only DST window,True,146996.0,True
+A2,2018,28,2018-07-09,summer control,True,145726.0,True
+A2,2018,29,2018-07-16,summer control,True,146122.0,True
+B0,2018,42,2018-10-15,change-point weeks,True,144828.0,True
+A3,2018,43,2018-10-22,autumn US-only DST window,True,145937.0,True
+A3,2018,44,2018-10-29,autumn US-only DST window,True,144833.0,True
+B0,2018,45,2018-11-05,change-point weeks,True,146640.0,True
+B0,2018,46,2018-11-12,change-point weeks,True,149877.0,True
+B0,2018,47,2018-11-19,change-point weeks,True,143247.0,True
+B0,2018,48,2018-11-26,change-point weeks,True,145398.0,True
+B0,2018,49,2018-12-03,change-point weeks,True,146974.0,True
+B0,2018,50,2018-12-10,change-point weeks,True,145689.0,True
+B0,2018,51,2018-12-17,change-point weeks,True,147248.0,True
+B0,2018,52,2018-12-24,change-point weeks,True,105600.0,True
+B0,2019,1,2018-12-31,change-point weeks,False,,True
+B0,2019,2,2019-01-07,change-point weeks,True,147502.0,True
+B0,2019,3,2019-01-14,change-point weeks,True,144296.0,True
+B0,2019,4,2019-01-21,change-point weeks,True,141541.0,True
+B0,2019,5,2019-01-28,change-point weeks,True,142742.0,True
+B0,2019,6,2019-02-04,change-point weeks,True,138188.0,True
+B0,2019,7,2019-02-11,change-point weeks,True,140930.0,True
+B0,2019,8,2019-02-18,change-point weeks,True,140743.0,True
+B0,2019,9,2019-02-25,change-point weeks,True,140427.0,True
+B0,2019,10,2019-03-04,change-point weeks,True,139223.0,True
+B0,2019,11,2019-03-11,change-point weeks,True,138756.0,True
+B0,2019,12,2019-03-18,change-point weeks,True,139716.0,True
+B0,2019,13,2019-03-25,change-point weeks,True,142222.0,True
+B0,2019,14,2019-04-01,change-point weeks,True,135722.0,True
+B1,2019,29,2019-07-15,summer control,True,135470.0,True
+B1,2020,3,2020-01-13,winter control,True,129061.0,True
+B1,2020,29,2020-07-13,summer control,True,142299.0,True
+B1,2021,2,2021-01-11,winter control,True,146670.0,False
+B1,2021,3,2021-01-18,winter control,True,142065.0,False
+B1,2021,28,2021-07-12,summer control,True,94321.0,False
+B1,2021,29,2021-07-19,summer control,True,95150.0,False
+B1,2022,2,2022-01-10,winter control,True,94929.0,False
+B1,2022,3,2022-01-17,winter control,True,94485.0,False
+B1,2022,28,2022-07-11,summer control,True,108780.0,False
+B1,2022,29,2022-07-18,summer control,True,109964.0,False
+B1,2023,2,2023-01-09,winter control,True,106278.0,False
+B1,2023,3,2023-01-16,winter control,True,106357.0,False
+B1,2023,28,2023-07-10,summer control,True,99740.0,False
+B1,2023,29,2023-07-17,summer control,True,99691.0,False
+C2,2024,42,2024-10-14,October 2024 anomaly,True,93055.0,False
+C2,2024,43,2024-10-21,October 2024 anomaly,True,92124.0,False
+C2,2024,44,2024-10-28,October 2024 anomaly,True,96920.0,False
+C2,2024,45,2024-11-04,October 2024 anomaly,True,104224.0,False

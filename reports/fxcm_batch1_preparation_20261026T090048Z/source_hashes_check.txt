@@ -1,0 +1,10 @@
+SHA-256 check, 2026-10-26T09:01:44Z
+Snapshot: 177 files (data/, reports/, eurusd_*.parquet)
+Failures: 0
+42-file baseline failures: 0 of 42
+data/reference exists: no
+New files:
+  reports/fxcm_batch1_preparation_20261026T090048Z/candidate_urls.csv
+  reports/fxcm_batch1_preparation_20261026T090048Z/manifest_template.csv
+  reports/fxcm_batch1_preparation_20261026T090048Z/preparation.md
+pytest: 76 passed in 1.53s

@@ -1,0 +1,7 @@
+SHA-256 check, 2026-10-26T07:45:23Z
+Snapshot: 175 files (data/, reports/, eurusd_*.parquet)
+Failures: 0
+42-file baseline failures: 0 of 42
+New files:
+  reports/timezone_evidence_checklist_20261026T074435Z/checklist.md
+pytest: 76 passed in 1.52s

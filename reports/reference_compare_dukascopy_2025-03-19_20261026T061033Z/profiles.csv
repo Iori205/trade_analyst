@@ -1,0 +1,3 @@
+dataset,rows,first,last,expected_minutes_in_window,distinct_minutes,duplicate_timestamp_rows,monotonic_increasing,non_zero_seconds,ohlc_violations,zero_volume_rows
+dukascopy (UTC),1439,2025-03-19 00:00:00+00:00,2025-03-19 23:59:00+00:00,1440,1439,0,True,0,0,0
+"histdata, same calendar label",1439,2025-03-19 00:00:00,2025-03-19 23:59:00,1440,1439,0,True,0,0,1439

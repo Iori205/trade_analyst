@@ -1,0 +1,138 @@
+{
+  "schemas": {
+    "1m": {
+      "path": "eurusd_1m.parquet",
+      "rows": 4289560,
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close"
+      ],
+      "dtypes": {
+        "open": "float64",
+        "high": "float64",
+        "low": "float64",
+        "close": "float64"
+      },
+      "index_name": "timestamp",
+      "index_dtype": "datetime64[ns]",
+      "index_tz": "None",
+      "first": "2015-01-01 13:00:00",
+      "last": "2026-08-31 23:58:00",
+      "duplicate_index": 0,
+      "monotonic_increasing": true
+    },
+    "15m": {
+      "path": "eurusd_15m.parquet",
+      "rows": 287078,
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close"
+      ],
+      "dtypes": {
+        "open": "float64",
+        "high": "float64",
+        "low": "float64",
+        "close": "float64"
+      },
+      "index_name": "timestamp",
+      "index_dtype": "datetime64[ns]",
+      "index_tz": "None",
+      "first": "2015-01-01 13:00:00",
+      "last": "2026-08-31 23:45:00",
+      "duplicate_index": 0,
+      "monotonic_increasing": true
+    },
+    "1h": {
+      "path": "eurusd_1h.parquet",
+      "rows": 71775,
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close"
+      ],
+      "dtypes": {
+        "open": "float64",
+        "high": "float64",
+        "low": "float64",
+        "close": "float64"
+      },
+      "index_name": "timestamp",
+      "index_dtype": "datetime64[ns]",
+      "index_tz": "None",
+      "first": "2015-01-01 13:00:00",
+      "last": "2026-08-31 23:00:00",
+      "duplicate_index": 0,
+      "monotonic_increasing": true
+    },
+    "4h": {
+      "path": "eurusd_4h.parquet",
+      "rows": 18726,
+      "columns": [
+        "open",
+        "high",
+        "low",
+        "close"
+      ],
+      "dtypes": {
+        "open": "float64",
+        "high": "float64",
+        "low": "float64",
+        "close": "float64"
+      },
+      "index_name": "timestamp",
+      "index_dtype": "datetime64[ns]",
+      "index_tz": "None",
+      "first": "2015-01-01 12:00:00",
+      "last": "2026-08-31 20:00:00",
+      "duplicate_index": 0,
+      "monotonic_increasing": true
+    }
+  },
+  "comparison": {
+    "1m": {
+      "rows_expected": 4289560,
+      "rows_actual": 4289560,
+      "common_index": 4289560,
+      "only_in_expected": 0,
+      "only_in_actual": 0,
+      "value_mismatch_rows": 0,
+      "max_abs_diff": 0.0,
+      "sample_mismatch_timestamps": []
+    },
+    "15m": {
+      "rows_expected": 287078,
+      "rows_actual": 287078,
+      "common_index": 287078,
+      "only_in_expected": 0,
+      "only_in_actual": 0,
+      "value_mismatch_rows": 0,
+      "max_abs_diff": 0.0,
+      "sample_mismatch_timestamps": []
+    },
+    "1h": {
+      "rows_expected": 71775,
+      "rows_actual": 71775,
+      "common_index": 71775,
+      "only_in_expected": 0,
+      "only_in_actual": 0,
+      "value_mismatch_rows": 0,
+      "max_abs_diff": 0.0,
+      "sample_mismatch_timestamps": []
+    },
+    "4h": {
+      "rows_expected": 18726,
+      "rows_actual": 18726,
+      "common_index": 18726,
+      "only_in_expected": 0,
+      "only_in_actual": 0,
+      "value_mismatch_rows": 0,
+      "max_abs_diff": 0.0,
+      "sample_mismatch_timestamps": []
+    }
+  }
+}

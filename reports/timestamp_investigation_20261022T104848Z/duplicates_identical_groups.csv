@@ -1,0 +1,7 @@
+source_file,date,weekday,timestamps,rows,first_timestamp,last_timestamp,block_line_ranges,all_values_identical,dst_switch_date
+DAT_ASCII_EURUSD_M1_2019.csv,2019-10-27,Sunday,60,120,2019-10-27 19:00:00,2019-10-27 19:59:00,occurrence 1: lines 305959-306018; occurrence 2: lines 306019-306078,True,eu_end
+DAT_ASCII_EURUSD_M1_2020.csv,2020-10-25,Sunday,60,120,2020-10-25 19:00:00,2020-10-25 19:59:00,occurrence 1: lines 304281-304340; occurrence 2: lines 304341-304400,True,eu_end
+DAT_ASCII_EURUSD_M1_2021.csv,2021-10-31,Sunday,60,120,2021-10-31 19:00:00,2021-10-31 19:59:00,occurrence 1: lines 305232-305291; occurrence 2: lines 305292-305351,True,eu_end
+DAT_ASCII_EURUSD_M1_2022.csv,2022-10-30,Sunday,60,120,2022-10-30 19:00:00,2022-10-30 19:59:00,occurrence 1: lines 308463-308522; occurrence 2: lines 308523-308582,True,eu_end
+DAT_ASCII_EURUSD_M1_2023.csv,2023-10-29,Sunday,60,120,2023-10-29 19:00:00,2023-10-29 19:59:00,occurrence 1: lines 259274-259333; occurrence 2: lines 259334-259393,True,eu_end
+DAT_ASCII_EURUSD_M1_2025.csv,2025-10-26,Sunday,60,120,2025-10-26 19:00:00,2025-10-26 19:59:00,occurrence 1: lines 304585-304644; occurrence 2: lines 304645-304704,True,eu_end

@@ -1,0 +1,5 @@
+field,pairs,mean_diff_pips,median_diff_pips,median_abs_diff_pips,p95_abs_diff_pips,max_abs_diff_pips,share_exact,share_within_0_5_pip
+open,1439,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+high,1439,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+low,1439,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+close,1439,0.0,0.0,0.0,0.0,0.0,1.0,1.0

@@ -1,0 +1,14 @@
+SHA-256 check, 2026-10-26T14:37:33Z
+Snapshot: 181 files (data/, reports/, eurusd_*.parquet)
+Failures: 0
+42-file baseline failures: 0 of 42
+data/reference exists: no; docs/approvals exists: no
+New files:
+  reports/fxcm_tz_comparison_20261026T143644Z/approval_template.md
+  reports/fxcm_tz_comparison_20261026T143644Z/cells.csv
+  reports/fxcm_tz_comparison_20261026T143644Z/daily.csv
+  reports/fxcm_tz_comparison_20261026T143644Z/run.json
+  reports/fxcm_tz_comparison_20261026T143644Z/scans.csv
+  reports/fxcm_tz_comparison_20261026T143644Z/summary.md
+  reports/fxcm_tz_comparison_20261026T143644Z/verdicts.csv
+pytest: 85 passed in 2.24s

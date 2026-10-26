@@ -1,0 +1,24 @@
+To: api@fxcm.com
+Subject: Terms of use for MarketData CandleData (m1 EURUSD) - personal research
+
+Hello,
+
+Your MarketData repository (https://github.com/fxcm/MarketData) offers historical
+candle data at https://candledata.fxcorporate.com/ and says it "is for personal use
+and abides by our EULA". The EULA link (https://www.fxcm.com/uk/forms/eula/) opens an
+e-signature form, and I could not find the agreement text itself.
+
+I would like to download about 75 weekly m1 EURUSD files (roughly 10 MB) for
+non-commercial personal research. I would use them only to check the timestamp
+alignment of another historical dataset. I would not redistribute them. Could you
+please confirm:
+
+1. Is this use permitted, and which terms apply to the CandleData files?
+2. Do the terms cover every year the server provides (files exist for 2012-2026), or
+   only the 2017-2020 years listed in the README?
+3. Are the m1 candle prices bid, ask, or mid, and what columns do the files contain?
+4. Are candle timestamps in UTC and labelled by the start of each minute?
+5. How are the weekly files numbered (ISO week of year?), and are files revised after
+   publication?
+
+Thank you.

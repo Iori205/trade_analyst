@@ -1,0 +1,7 @@
+event,utc,basis,day_median_abs_return_bp,max_bp_at_-60min,ratio_to_median_at_-60min,max_bp_at_+0min,ratio_to_median_at_+0min,max_bp_at_+60min,ratio_to_median_at_+60min,strongest_shift_min,fxcm_file
+FOMC statement,2018-03-21 18:00,Fed calendar / BLS archive,0.489,2.45,5.0,21.99,44.9,4.95,10.1,0,2018/12
+Employment Situation,2018-11-02 12:30,Fed calendar / BLS archive,0.613,0.52,0.9,8.57,14.0,1.84,3.0,0,2018/44
+FOMC statement,2018-11-08 19:00,Fed calendar / BLS archive,0.526,1.4,2.7,9.91,18.8,2.82,5.4,0,2018/45
+CPI,2019-03-12 12:30,Fed calendar / BLS archive,0.442,1.69,3.8,5.32,12.0,2.31,5.2,0,2019/11
+FOMC statement,2019-10-30 18:00,Fed calendar / BLS archive,0.36,0.54,1.5,9.99,27.8,6.11,17.0,0,2019/44
+Employment Situation,2019-11-01 12:30,Fed calendar / BLS archive,0.358,1.26,3.5,12.65,35.3,1.52,4.3,0,2019/44

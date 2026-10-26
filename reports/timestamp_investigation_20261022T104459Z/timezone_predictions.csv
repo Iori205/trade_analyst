@@ -1,0 +1,10 @@
+anchor,regime,H1_fixed_utc-5,H2_america_new_york,H3_ny_offset_eu_dates
+us_0830_release,both_standard,08:30,08:30,08:30
+us_0830_release,both_summer,07:30,08:30,08:30
+us_0830_release,us_summer_eu_standard,07:30,08:30,07:30
+london_1600_fix,both_standard,11:00,11:00,11:00
+london_1600_fix,both_summer,10:00,11:00,11:00
+london_1600_fix,us_summer_eu_standard,11:00,12:00,11:00
+weekly_open_1700_ny,both_standard,17:00,17:00,17:00
+weekly_open_1700_ny,both_summer,16:00,17:00,17:00
+weekly_open_1700_ny,us_summer_eu_standard,16:00,17:00,16:00

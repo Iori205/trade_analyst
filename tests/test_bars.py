@@ -148,3 +148,70 @@ def test_run_guard_determinism_and_no_overwrite(tmp_path):
     assert (a["out_dir"] / bar_file("M15", "validation")).exists()
     with pytest.raises(FileExistsError):
         run(tmp_path, out_dir=Path("out/a"), unlock_test=True)
+
+
+def ohlc_frame(rows):
+    """rows: (utc minute, open, high, low, close) with distinct values per field."""
+    m1 = m1_frame([(ts, c, {}) for ts, _, _, _, c in rows])
+    m1[["open", "high", "low", "close"]] = [r[1:] for r in rows]
+    return m1
+
+
+def test_bar_ohlc_is_first_open_max_high_min_low_last_close():
+    m1 = ohlc_frame([
+        ("2019-05-01 10:03", 1.1030, 1.1060, 1.1020, 1.1050),
+        ("2019-05-01 10:00", 1.1000, 1.1040, 1.0990, 1.1010),   # earliest minute: its open is the bar open
+        ("2019-05-01 10:07", 1.1050, 1.1090, 1.1045, 1.1080),   # highest high
+        ("2019-05-01 10:11", 1.1080, 1.1085, 1.0950, 1.1060),   # lowest low
+        ("2019-05-01 10:14", 1.1060, 1.1070, 1.1040, 1.1045),   # latest minute: its close is the bar close
+    ])
+    bar = aggregate(m1, 15).iloc[0]
+    assert (bar["open"], bar["high"], bar["low"], bar["close"]) == (1.1000, 1.1090, 1.0950, 1.1045)
+    assert bar["m1_count"] == 5
+
+
+@pytest.mark.parametrize("minutes, last_inside, boundary", [(15, "10:14", "10:15"), (60, "10:59", "11:00")])
+def test_no_look_ahead_boundary_minute_starts_next_bar(minutes, last_inside, boundary):
+    m1 = ohlc_frame([
+        ("2019-05-01 10:00", 1.1000, 1.1010, 1.0990, 1.1005),
+        (f"2019-05-01 {last_inside}", 1.1005, 1.1015, 1.0995, 1.1010),
+        (f"2019-05-01 {boundary}", 1.1500, 1.1600, 1.0500, 1.1550),  # extreme values must not leak back
+    ])
+    bars = aggregate(m1, minutes)
+    t = pd.Timestamp("2019-05-01 10:00", tz="UTC")
+    assert bars["bar_start_utc"].tolist() == [t, t + pd.Timedelta(minutes=minutes)]
+    first, second = bars.iloc[0], bars.iloc[1]
+    assert (first["m1_count"], first["close"], first["high"], first["low"]) == (2, 1.1010, 1.1015, 1.0990)
+    assert (second["m1_count"], second["open"]) == (1, 1.1500)
+
+
+def test_overlapping_splits_are_rejected(tmp_path):
+    p = tmp_path / "splits.yaml"
+    p.write_text('splits:\n  train: {start: "2019-01-01", end: "2020-01-01"}\n'
+                 '  validation: {start: "2020-01-01", end: "2020-12-31"}\n', encoding="utf-8")
+    with pytest.raises(ValueError, match="overlap"):
+        load_splits(p)
+
+
+def test_project_splits_are_disjoint_and_contiguous():
+    s = sorted(load_splits(Path(__file__).resolve().parents[1] / "config" / "splits.yaml").values(),
+               key=lambda x: x.start)
+    for a, b in zip(s, s[1:]):
+        assert a.end == b.start  # end is exclusive, so the boundary day belongs to exactly one split
+
+
+def test_no_bar_appears_in_two_splits(tmp_path):
+    m1 = m1_frame([("2019-12-31 23:45", 1.1, {}), ("2019-12-31 23:59", 1.1, {}),   # last train minutes
+                   ("2020-01-01 00:00", 1.1, {}), ("2020-01-01 00:14", 1.1, {}),   # first validation minutes
+                   ("2020-12-31 23:59", 1.1, {}), ("2021-01-01 00:00", 1.1, {})])  # validation -> test
+    write_input(tmp_path, m1)
+    out = run(tmp_path, out_dir=Path("out"), unlock_test=True)["out_dir"]
+    splits = load_splits(tmp_path / "config/splits.yaml")
+    for tf, minutes in (("M15", 15), ("H1", 60)):
+        seen = []
+        for name, s in splits.items():
+            bars = read_bars(out, tf, name, splits, unlock_test=True)
+            assert (bars["bar_start_utc"] >= s.start).all()
+            assert (bars["bar_start_utc"] + pd.Timedelta(minutes=minutes) <= s.end).all()  # whole bar inside split
+            seen += bars["bar_start_utc"].tolist()
+        assert len(seen) == len(set(seen)) == 4

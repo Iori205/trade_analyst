@@ -1,0 +1,48 @@
+# Spread / cost model v1 (built by src/data/cost_model.py).
+# Spread = ask_close - bid_close of each FXCM M1 bar, in pips. FXCM labels are UTC (FXCM api reply, 2026-10-23).
+# Paths are relative to the project root. The source files are only read.
+
+version: cost-model-v1
+
+source:
+  fxcm_dir: data/reference/fxcm/v1            # MANIFEST.csv + SHA256SUMS.txt are checked before reading
+  # Holiday week 2019-12-29 .. 2020-01-03, hour-of-day result only; used for comparison, not in the model
+  audit_53_spread_by_hour: reports/fxcm_audit_53_20261026T063221Z/spread_by_hour.csv
+
+output_dir: data/processed/cost_model/v1
+
+pip: 0.0001
+quantiles: {median: 0.5, p75: 0.75, p90: 0.9}
+
+anomalies:
+  # Negative and zero spreads are counted and kept in spread_minutes.parquet, but not used in the statistics
+  # (a cost cannot be <= 0). Extreme spreads are counted and DO stay in the statistics (they are real at rollover).
+  extreme_pips: 5.0
+
+sample:
+  # A cell or segment is used only with at least this many positive-spread minutes from at least this many weeks;
+  # otherwise the all-hours (regular segment) statistics are used and the cell is marked as fallback.
+  min_minutes: 120
+  min_weeks: 3
+
+segments:
+  clock: America/New_York                     # the FX day rolls over at 17:00 New York in both regimes
+  rollover: {start: "16:55", end: "18:00"}    # New York local, Mon-Fri; about 21-22 UTC (summer 20:55-22:00, winter 21:55-23:00)
+  weekly_open_first_hour: {start: "17:00", end: "18:00"}   # New York local on Sunday
+  # Rest of the UTC Sunday after the first hour = weekly_open_rest. Saturday, Friday from 17:00 NY and Sunday
+  # before 17:00 NY = market_closed (lookup returns the fallback).
+
+regime:
+  definition: America/New_York DST (summer = EDT, winter = EST)
+  alpha: 0.05                                 # exact permutation test over week labels
+  min_effect_pips: 0.1                        # both needed to build separate summer / winter hour tables
+
+floor_pips: 0.1                               # lookup never returns less than this
+
+# Round-trip cost per trade = spread(spread_percentile) + commission_pips_round_trip + slippage_pips.
+# Broker-dependent ASSUMPTIONS, not measured from data. Only CostModel.cost_for reads them,
+# so changing them does not require rebuilding data/processed/cost_model/v1/.
+trading_costs:
+  spread_percentile: p75                      # default; one of the quantiles above (median, p75, p90)
+  commission_pips_round_trip: 0.6
+  slippage_pips: 0.2                          # per round trip

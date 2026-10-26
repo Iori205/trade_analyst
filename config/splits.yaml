@@ -1,0 +1,20 @@
+# Research splits on the UTC clock (approved by the project owner, 2026-10-27).
+# start/end are inclusive UTC calendar days; code treats end as end + 1 day, exclusive.
+# Split boundaries fall on UTC midnight, so no M15 or H1 bar straddles two splits.
+# The locked split can only be read with an explicit unlock_test=True (src/data/splits.py).
+
+version: splits-v1
+source_dataset: data/processed/eurusd_m1/v1
+
+splits:
+  train:
+    start: "2015-01-01"
+    end: "2021-12-31"
+  validation:
+    start: "2022-01-01"
+    end: "2023-12-31"
+    exclude_flags: [low_quality_period]   # M1 rows flagged in v1 (UTC 2023-02-01 .. 2023-07-31) are dropped
+  test:
+    start: "2024-01-01"
+    end: "2026-08-31"
+    locked: true

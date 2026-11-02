@@ -1,0 +1,73 @@
+== short_tp2_sl1.5_h4 ==
+|--- atr_pct_30d <= 0.313
+|   |--- hour_utc <= 3.500
+|   |   |--- ema50_h4_dist_atr <= -5.188
+|   |   |   |--- weights: [225.000, 34.000] class: 0
+|   |   |--- ema50_h4_dist_atr >  -5.188
+|   |   |   |--- weights: [1222.000, 56.000] class: 0
+|   |--- hour_utc >  3.500
+|   |   |--- hour_utc <= 14.500
+|   |   |   |--- weights: [6311.000, 3042.000] class: 0
+|   |   |--- hour_utc >  14.500
+|   |   |   |--- weights: [708.000, 94.000] class: 0
+|--- atr_pct_30d >  0.313
+|   |--- hour_utc <= 15.500
+|   |   |--- hour_utc <= 4.500
+|   |   |   |--- weights: [4860.000, 172.000] class: 0
+|   |   |--- hour_utc >  4.500
+|   |   |   |--- weights: [6137.000, 1864.000] class: 0
+|   |--- hour_utc >  15.500
+|   |   |--- hour_utc <= 17.500
+|   |   |   |--- weights: [2663.000, 192.000] class: 0
+|   |   |--- hour_utc >  17.500
+|   |   |   |--- weights: [5172.000, 103.000] class: 0
+
+
+== short_tp2_sl1.5_h8 ==
+|--- hour_utc <= 14.500
+|   |--- hour_utc <= 3.500
+|   |   |--- atr_pct_30d <= 0.551
+|   |   |   |--- weights: [2301.000, 813.000] class: 0
+|   |   |--- atr_pct_30d >  0.551
+|   |   |   |--- weights: [2334.000, 387.000] class: 0
+|   |--- hour_utc >  3.500
+|   |   |--- ret_24h_atr <= 0.138
+|   |   |   |--- weights: [3876.000, 2868.000] class: 0
+|   |   |--- ret_24h_atr >  0.138
+|   |   |   |--- weights: [6410.000, 3371.000] class: 0
+|--- hour_utc >  14.500
+|   |--- hour_utc <= 16.500
+|   |   |--- hour_utc <= 15.500
+|   |   |   |--- weights: [1011.000, 225.000] class: 0
+|   |   |--- hour_utc >  15.500
+|   |   |   |--- weights: [1097.000, 137.000] class: 0
+|   |--- hour_utc >  16.500
+|   |   |--- atr_pct_30d <= 0.261
+|   |   |   |--- weights: [228.000, 58.000] class: 0
+|   |   |--- atr_pct_30d >  0.261
+|   |   |   |--- weights: [6165.000, 313.000] class: 0
+
+
+== short_tp2_sl1_h8 ==
+|--- hour_utc <= 14.500
+|   |--- hour_utc <= 3.500
+|   |   |--- atr_pct_30d <= 0.561
+|   |   |   |--- weights: [2462.000, 719.000] class: 0
+|   |   |--- atr_pct_30d >  0.561
+|   |   |   |--- weights: [2311.000, 343.000] class: 0
+|   |--- hour_utc >  3.500
+|   |   |--- ret_24h_atr <= 0.061
+|   |   |   |--- weights: [4327.000, 2318.000] class: 0
+|   |   |--- ret_24h_atr >  0.061
+|   |   |   |--- weights: [7050.000, 2830.000] class: 0
+|--- hour_utc >  14.500
+|   |--- hour_utc <= 15.500
+|   |   |--- ema50_h4_dist_atr <= 1.801
+|   |   |   |--- weights: [700.000, 114.000] class: 0
+|   |   |--- ema50_h4_dist_atr >  1.801
+|   |   |   |--- weights: [331.000, 91.000] class: 0
+|   |--- hour_utc >  15.500
+|   |   |--- atr_pct_30d <= 0.226
+|   |   |   |--- weights: [195.000, 52.000] class: 0
+|   |   |--- atr_pct_30d >  0.226
+|   |   |   |--- weights: [7340.000, 411.000] class: 0

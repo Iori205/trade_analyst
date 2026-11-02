@@ -1,20 +1,27 @@
-Шинэ ажил: Sweep + MSS стратеги, TRAIN дээр. Commit хийхгүй.
-Engine: src/backtest/engine.py, trial log-д бүртгэ.
+Шинэ ажил: өгөгдлөөс стратеги хайх (triple-barrier + ML). Зөвхөн TRAIN.
+Validation/test-д хүрэхгүй. Commit хийхгүй. Trial log-д бүх хувилбарыг бүртгэ.
+scikit-learn шаардлагатай бол хувилбарыг тогтоож .venv-д суулгаж болно.
 
-Дүрмүүд урьдчилан царцаасан, үр дүнг хараад параметр өөрчлөхгүй:
-
-- Trend (H4, M15 bar-уудаас үүсгэ): хаагдсан H4 close > EMA50 → зөвхөн long,
-  < EMA50 → зөвхөн short
-- Asia range: тухайн өдрийн 00:00–07:00 UTC-ийн high/low
-- Sweep (M15, 12:00–17:00 UTC): long-д bar-ийн low < Asia low БА close > Asia low.
-  Short-д эсрэгээр (high > Asia high БА close < Asia high).
-- MSS: sweep-ээс хойш 8 M15 bar дотор close нь sweep-ийн өмнөх сүүлийн
-  swing high-аас (long) / swing low-оос (short) давж хаагдах.
-  Swing = 2 bar-ийн fractal (хоёр талдаа 2 bar).
-- Орох: MSS bar-ийн дараагийн bar-ийн open. Өдөрт хамгийн ихдээ 1 арилжаа.
-- Гарах: 4 цаг, эсвэл 20:45 UTC, аль нь түрүүлнэ.
-- Stop/target байхгүй (v1). Зөвхөн хугацаагаар гарна.
-
-Үр дүн: engine-ийн бүх хэмжүүр, жил бүрээр, long/short тусад нь,
-санамсаргүй baseline-тай харьцуулалт.
-reports/strategy*sweep_mss*<ts>/summary.md
+1. Label (H1 bar бүрийн хаалтаар орох, орох үнэ = дараагийн bar open):
+   - TP / SL нь ATR(14, H1)-ийн үржвэр: (TP,SL) ∈ {(1,1), (1.5,1), (2,1), (2,1.5)}
+   - Хугацааны хязгаар ∈ {4, 8, 24 цаг}
+   - Аль нь эхэлж хүрснийг M1 замаар шалга. Нэг минутад хоёулаа бол SL гэж үз
+   - Long ба short тус тусад label. Нийт хувилбар = 4 × 3 × 2 = 24
+2. Feature (зөвхөн тухайн bar хаагдах хүртэлх мэдээлэл):
+   цаг, гараг, session, сарын сүүлийн өдөр эсэх, 1/4/24 цагийн өгөөж (ATR-аар),
+   ATR-ийн түвшин (сүүлийн 30 хоногтой харьцуулсан percentile),
+   H4 EMA50-аас зай (ATR-аар), өмнөх өдрийн болон Asia session-ий high/low-оос
+   зай (ATR-аар), тэдгээрийг өнөөдөр эвдсэн эсэх.
+3. Model: (a) гүехэн decision tree (max_depth 3) — уншигдахуйц дүрэм гаргах,
+   (b) gradient boosting (sklearn HistGradientBoosting).
+4. Walk-forward (train дотор): 2015–2017 сургаад 2018-ыг таамагла,
+   2015–2018 → 2019, ... → 2021. Сургалт ба таамаглалын хооронд
+   хугацааны хязгаартай тэнцүү embargo (label давхцахаас сэргийлэх).
+5. Арилжааны дүрэм: зөвхөн хүлээгдэх ашиг > 0 үед орох
+   (p × TP − (1−p) × SL − cost_for > 0). Rollover/weekly_open/flag-тай bar-т орохгүй.
+6. Үр дүн (зөвхөн out-of-fold 2018–2021): хувилбар тус бүрийн арилжааны тоо,
+   expectancy, t-stat, жил бүрээр; ижил давтамжтай санамсаргүй baseline-тай
+   харьцуулалт; feature importance; decision tree-ийн дүрмүүд текстээр.
+   Олон хувилбарын засвар: Deflated Sharpe эсвэл BH-FDR.
+7. reports/ml*discovery*<ts>/summary.md — шилдэг 3 хувилбар, тэдгээр нь
+   жил бүр тогтвортой эсэх, санамсаргүйгээс хэр илүү.

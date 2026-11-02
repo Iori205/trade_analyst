@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-02T08:54:40Z",
+  "git_commit": "0bc8fda25b75e129c5fd394e536519e2846d1967",
+  "git_dirty": true,
+  "data": "data/processed/eurusd_bars/v1/eurusd_h1_train.parquet",
+  "data_sha256": "b7035d03eb13b589343268ae5a893258dfae73e8781d18e77f21c4b96a06fabc",
+  "percentile": "p75",
+  "trials_logged": 102,
+  "trials_total": 102,
+  "weekdays": 1827,
+  "metrics": {
+    "ma_crossover": {
+      "trades": 962,
+      "win_rate": 0.3794178794178794,
+      "avg_win_pips": 63.814520547945214,
+      "avg_loss_pips": -40.11340033500837,
+      "expectancy_pips": -0.6812889812889812,
+      "total_pips": -655.3999999999999,
+      "max_drawdown_pips": 4428.599999999999,
+      "sharpe_daily": -0.10895232531083734,
+      "t_stat": -0.2860706311056401,
+      "mean_cost_pips": 1.0108108108108107
+    },
+    "monday_13_long": {
+      "trades": 360,
+      "win_rate": 0.5361111111111111,
+      "avg_win_pips": 11.132642487046631,
+      "avg_loss_pips": -9.286227544910181,
+      "expectancy_pips": 1.6605555555555558,
+      "total_pips": 597.8000000000001,
+      "max_drawdown_pips": 171.70000000000005,
+      "sharpe_daily": 0.8007936895492989,
+      "t_stat": 2.165056687430087,
+      "mean_cost_pips": 1.0
+    }
+  },
+  "random": {
+    "runs": 100,
+    "seed0": 20261102,
+    "p_entry": 0.0625,
+    "hold": 4
+  }
+}

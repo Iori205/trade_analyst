@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-11-02T08:42:04Z",
+  "split": "train only",
+  "raw_bars": {
+    "M15": 174125,
+    "H1": 43534
+  },
+  "clean_bars": {
+    "M15": 167805,
+    "H1": 39885
+  },
+  "train": {
+    "start_utc": "2015-01-01 00:00:00+00:00",
+    "end_utc_exclusive": "2022-01-01 00:00:00+00:00"
+  },
+  "cost": {
+    "percentile": "p75",
+    "commission_pips_round_trip": 0.6,
+    "slippage_pips": 0.2
+  },
+  "inputs_sha256": {
+    "data/processed/eurusd_bars/v1/eurusd_m15_train.parquet": "6090cb8014ada01c8adf71c54ee999d1f9a5ae019f8d6272329279b1d11ac3ba",
+    "data/processed/eurusd_bars/v1/eurusd_h1_train.parquet": "b7035d03eb13b589343268ae5a893258dfae73e8781d18e77f21c4b96a06fabc",
+    "data/processed/cost_model/v1/hour_of_week.csv": "f5c3b42bd5f3ad67b065b0fe47bb44dbe0e30d013929adc86c15e48b2bae9605",
+    "data/processed/cost_model/v1/segments.csv": "f72e312a102b1a1459d516e85629b4e8d583fd5fea59b78f97cfe5f98c2221d3",
+    "data/processed/cost_model/v1/model.json": "e23091712530417b832dad4dedd69cd08df170d6aaac29cc75545be65194819e",
+    "config/cost_model_v1.yaml": "e1085e9e5b297e32e9ac8d7a68f8f21e0790912ced56999a12d8e5059fabfdd8"
+  },
+  "git_commit": "15b1f1434750e2bf8fd166721517ddfe6b6bbd69",
+  "git_dirty": true,
+  "scripts_sha256": {
+    "src/research/exploratory_stats.py": "a567d49b8aa55a04a08a852c46eb46359af30e2b11a25b707c0da3157cd44b07",
+    "src/data/cost_model.py": "16e908d3936f964b43de2cbf88f8c5f383b8d01dfb309f6604ef40ca62c68187",
+    "src/data/bars.py": "72ef2ba1a56fe4b28c5e7eb214f19562e4658188eea7280416de162d7e098872",
+    "src/data/splits.py": "e3735ba208f23b0ca68c2a6b17c8f0d436124ec528ae9ba30570739f584b4723"
+  },
+  "settings": {
+    "min_cell": 30,
+    "n_perm": 20000,
+    "seed": 20261102,
+    "alpha": 0.05,
+    "sessions_utc": {
+      "asia": [
+        0,
+        7
+      ],
+      "london": [
+        7,
+        12
+      ],
+      "ny": [
+        12,
+        21
+      ]
+    },
+    "fix_window_london": [
+      "15:00",
+      "17:00"
+    ],
+    "big_move_threshold_pips": 23.5
+  },
+  "tests": {
+    "total": 321,
+    "by_family": {
+      "autocorr": 64,
+      "big_moves": 6,
+      "hour_weekday": 240,
+      "month_end": 3,
+      "sessions": 8
+    }
+  },
+  "environment": {
+    "python": "3.11.15",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "matplotlib": "3.9.2"
+  }
+}

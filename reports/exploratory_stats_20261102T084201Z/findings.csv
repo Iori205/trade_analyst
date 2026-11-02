@@ -1,0 +1,322 @@
+family,test_id,description,n,estimate,unit,z,p,move_pips,edge_pips,cost_pips,sign_rule_edge_pips,q_bh,significant_fdr,move_cost,edge_cost,move_cost_gt2,edge_cost_gt2
+hour_weekday,mean Mon 00,"H1 mean return, Mon 00:00 UTC",319,-0.121317,pips,-0.228713,0.819092,5.6,0.121317,1,,0.963369,False,5.6,0.121317,True,False
+hour_weekday,p_up Mon 00,"H1 P(up), Mon 00:00 UTC",319,0.485893,probability,-0.503903,0.614329,5.6,0.121317,1,,0.924796,False,5.6,0.121317,True,False
+hour_weekday,mean Mon 01,"H1 mean return, Mon 01:00 UTC",319,1.27994,pips,2.72218,0.0064852,4.8,1.27994,1,,0.104087,False,4.8,1.27994,True,False
+hour_weekday,p_up Mon 01,"H1 P(up), Mon 01:00 UTC",316,0.56962,probability,2.47519,0.0133164,4.8,1.27994,1,,0.147399,False,4.8,1.27994,True,False
+hour_weekday,mean Mon 02,"H1 mean return, Mon 02:00 UTC",315,0.353968,pips,0.969724,0.332184,3.3,0.353968,1,,0.73035,False,3.3,0.353968,True,False
+hour_weekday,p_up Mon 02,"H1 P(up), Mon 02:00 UTC",314,0.512739,probability,0.451466,0.651654,3.3,0.353968,1,,0.92758,False,3.3,0.353968,True,False
+hour_weekday,mean Mon 03,"H1 mean return, Mon 03:00 UTC",289,0.245329,pips,0.739575,0.459558,3.1,0.245329,1,,0.867753,False,3.1,0.245329,True,False
+hour_weekday,p_up Mon 03,"H1 P(up), Mon 03:00 UTC",285,0.508772,probability,0.296174,0.767097,3.1,0.245329,1,,0.963369,False,3.1,0.245329,True,False
+hour_weekday,mean Mon 04,"H1 mean return, Mon 04:00 UTC",286,-0.185664,pips,-0.627874,0.530087,2.6,0.185664,1,,0.881647,False,2.6,0.185664,True,False
+hour_weekday,p_up Mon 04,"H1 P(up), Mon 04:00 UTC",283,0.44523,probability,-1.84276,0.0653642,2.6,0.185664,1,,0.412011,False,2.6,0.185664,True,False
+hour_weekday,mean Mon 05,"H1 mean return, Mon 05:00 UTC",322,1.04627,pips,2.57232,0.010102,3.7,1.04627,1,,0.12971,False,3.7,1.04627,True,False
+hour_weekday,p_up Mon 05,"H1 P(up), Mon 05:00 UTC",320,0.55,probability,1.78885,0.0736383,3.7,1.04627,1,,0.454575,False,3.7,1.04627,True,False
+hour_weekday,mean Mon 06,"H1 mean return, Mon 06:00 UTC",350,-0.780857,pips,-1.30028,0.193504,5.7,0.780857,1,,0.617867,False,5.7,0.780857,True,False
+hour_weekday,p_up Mon 06,"H1 P(up), Mon 06:00 UTC",348,0.465517,probability,-1.28654,0.198256,5.7,0.780857,1,,0.617867,False,5.7,0.780857,True,False
+hour_weekday,mean Mon 07,"H1 mean return, Mon 07:00 UTC",356,-0.358708,pips,-0.441004,0.65921,8,0.358708,1,,0.92758,False,8,0.358708,True,False
+hour_weekday,p_up Mon 07,"H1 P(up), Mon 07:00 UTC",355,0.532394,probability,1.22071,0.222195,8,0.358708,1,,0.624574,False,8,0.358708,True,False
+hour_weekday,mean Mon 08,"H1 mean return, Mon 08:00 UTC",359,0.0623955,pips,0.0848182,0.932406,8,0.0623955,1,,0.984547,False,8,0.0623955,True,False
+hour_weekday,p_up Mon 08,"H1 P(up), Mon 08:00 UTC",357,0.535014,probability,1.32314,0.185789,8,0.0623955,1,,0.617867,False,8,0.0623955,True,False
+hour_weekday,mean Mon 09,"H1 mean return, Mon 09:00 UTC",358,-0.409497,pips,-0.68381,0.494095,6.8,0.409497,1,,0.877934,False,6.8,0.409497,True,False
+hour_weekday,p_up Mon 09,"H1 P(up), Mon 09:00 UTC",356,0.494382,probability,-0.212,0.832107,6.8,0.409497,1,,0.963369,False,6.8,0.409497,True,False
+hour_weekday,mean Mon 10,"H1 mean return, Mon 10:00 UTC",354,-0.215254,pips,-0.37022,0.711219,6,0.215254,1,,0.935576,False,6,0.215254,True,False
+hour_weekday,p_up Mon 10,"H1 P(up), Mon 10:00 UTC",352,0.488636,probability,-0.426401,0.669815,6,0.215254,1,,0.92758,False,6,0.215254,True,False
+hour_weekday,mean Mon 11,"H1 mean return, Mon 11:00 UTC",357,-0.351821,pips,-0.628211,0.529866,5.7,0.351821,1,,0.881647,False,5.7,0.351821,True,False
+hour_weekday,p_up Mon 11,"H1 P(up), Mon 11:00 UTC",355,0.495775,probability,-0.159223,0.873493,5.7,0.351821,1,,0.963369,False,5.7,0.351821,True,False
+hour_weekday,mean Mon 12,"H1 mean return, Mon 12:00 UTC",359,1.0429,pips,1.57189,0.115977,6.9,1.0429,1,,0.524346,False,6.9,1.0429,True,False
+hour_weekday,p_up Mon 12,"H1 P(up), Mon 12:00 UTC",358,0.488827,probability,-0.422813,0.672432,6.9,1.0429,1,,0.92758,False,6.9,1.0429,True,False
+hour_weekday,mean Mon 13,"H1 mean return, Mon 13:00 UTC",360,2.68528,pips,3.49756,0.00046954,8.2,2.68528,1,,0.0167469,True,8.2,2.68528,True,True
+hour_weekday,p_up Mon 13,"H1 P(up), Mon 13:00 UTC",360,0.569444,probability,2.63523,0.00840799,8.2,2.68528,1,,0.112457,False,8.2,2.68528,True,True
+hour_weekday,mean Mon 14,"H1 mean return, Mon 14:00 UTC",359,-0.316435,pips,-0.390053,0.696497,7.5,0.316435,1,,0.935576,False,7.5,0.316435,True,False
+hour_weekday,p_up Mon 14,"H1 P(up), Mon 14:00 UTC",357,0.504202,probability,0.158777,0.873845,7.5,0.316435,1,,0.963369,False,7.5,0.316435,True,False
+hour_weekday,mean Mon 15,"H1 mean return, Mon 15:00 UTC",359,-0.562396,pips,-0.802742,0.422124,7.4,0.562396,1,,0.83192,False,7.4,0.562396,True,False
+hour_weekday,p_up Mon 15,"H1 P(up), Mon 15:00 UTC",355,0.495775,probability,-0.159223,0.873493,7.4,0.562396,1,,0.963369,False,7.4,0.562396,True,False
+hour_weekday,mean Mon 16,"H1 mean return, Mon 16:00 UTC",354,0.906215,pips,1.60617,0.108236,5.85,0.906215,1,,0.524346,False,5.85,0.906215,True,False
+hour_weekday,p_up Mon 16,"H1 P(up), Mon 16:00 UTC",351,0.521368,probability,0.800641,0.42334,5.85,0.906215,1,,0.83192,False,5.85,0.906215,True,False
+hour_weekday,mean Mon 17,"H1 mean return, Mon 17:00 UTC",343,-0.0239067,pips,-0.0440211,0.964888,5.3,0.0239067,1,,0.996971,False,5.3,0.0239067,True,False
+hour_weekday,p_up Mon 17,"H1 P(up), Mon 17:00 UTC",342,0.464912,probability,-1.29777,0.194366,5.3,0.0239067,1,,0.617867,False,5.3,0.0239067,True,False
+hour_weekday,mean Mon 18,"H1 mean return, Mon 18:00 UTC",337,0.147181,pips,0.379511,0.704308,4,0.147181,1,,0.935576,False,4,0.147181,True,False
+hour_weekday,p_up Mon 18,"H1 P(up), Mon 18:00 UTC",335,0.486567,probability,-0.491723,0.622916,4,0.147181,1,,0.926635,False,4,0.147181,True,False
+hour_weekday,mean Mon 19,"H1 mean return, Mon 19:00 UTC",329,-0.227356,pips,-0.593249,0.553014,4,0.227356,1,,0.882758,False,4,0.227356,True,False
+hour_weekday,p_up Mon 19,"H1 P(up), Mon 19:00 UTC",327,0.495413,probability,-0.1659,0.868235,4,0.227356,1,,0.963369,False,4,0.227356,True,False
+hour_weekday,mean Mon 20,"H1 mean return, Mon 20:00 UTC",306,-0.962418,pips,-2.55592,0.0105908,3.4,0.962418,1,,0.130756,False,3.4,0.962418,True,False
+hour_weekday,p_up Mon 20,"H1 P(up), Mon 20:00 UTC",305,0.422951,probability,-2.69121,0.00711929,3.4,0.962418,1,,0.108823,False,3.4,0.962418,True,False
+hour_weekday,mean Mon 21,"H1 mean return, Mon 21:00 UTC",191,-0.0575916,pips,-0.164285,0.869507,2.1,0.0575916,1,,0.963369,False,2.1,0.0575916,True,False
+hour_weekday,p_up Mon 21,"H1 P(up), Mon 21:00 UTC",190,0.552632,probability,1.45095,0.146793,2.1,0.0575916,1,,0.574641,False,2.1,0.0575916,True,False
+hour_weekday,mean Mon 22,"H1 mean return, Mon 22:00 UTC",197,0.991878,pips,2.7677,0.00564538,2.4,0.991878,1.2,,0.0953773,False,2,0.826565,False,False
+hour_weekday,p_up Mon 22,"H1 P(up), Mon 22:00 UTC",196,0.637755,probability,3.85714,0.00011472,2.4,0.991878,1.2,,0.00634511,True,2,0.826565,False,False
+hour_weekday,mean Mon 23,"H1 mean return, Mon 23:00 UTC",260,0.184231,pips,0.528559,0.597112,2.55,0.184231,1.1,,0.908826,False,2.31818,0.167483,True,False
+hour_weekday,p_up Mon 23,"H1 P(up), Mon 23:00 UTC",257,0.533074,probability,1.06043,0.288949,2.55,0.184231,1.1,,0.682004,False,2.31818,0.167483,True,False
+hour_weekday,mean Tue 00,"H1 mean return, Tue 00:00 UTC",337,-0.094362,pips,-0.236579,0.812983,4.2,0.094362,1,,0.963369,False,4.2,0.094362,True,False
+hour_weekday,p_up Tue 00,"H1 P(up), Tue 00:00 UTC",334,0.482036,probability,-0.656611,0.511431,4.2,0.094362,1,,0.881647,False,4.2,0.094362,True,False
+hour_weekday,mean Tue 01,"H1 mean return, Tue 01:00 UTC",350,0.0662857,pips,0.143212,0.886123,4.5,0.0662857,1,,0.963369,False,4.5,0.0662857,True,False
+hour_weekday,p_up Tue 01,"H1 P(up), Tue 01:00 UTC",345,0.489855,probability,-0.376867,0.706272,4.5,0.0662857,1,,0.935576,False,4.5,0.0662857,True,False
+hour_weekday,mean Tue 02,"H1 mean return, Tue 02:00 UTC",337,1.15786,pips,2.96661,0.00301104,3.7,1.15786,1,,0.060409,False,3.7,1.15786,True,False
+hour_weekday,p_up Tue 02,"H1 P(up), Tue 02:00 UTC",334,0.598802,probability,3.61136,0.000304596,3.7,1.15786,1,,0.0139679,True,3.7,1.15786,True,False
+hour_weekday,mean Tue 03,"H1 mean return, Tue 03:00 UTC",315,-0.242857,pips,-0.723264,0.469518,3.2,0.242857,1,,0.871846,False,3.2,0.242857,True,False
+hour_weekday,p_up Tue 03,"H1 P(up), Tue 03:00 UTC",312,0.487179,probability,-0.452911,0.650613,3.2,0.242857,1,,0.92758,False,3.2,0.242857,True,False
+hour_weekday,mean Tue 04,"H1 mean return, Tue 04:00 UTC",308,-0.418182,pips,-1.29734,0.194514,3.4,0.418182,1,,0.617867,False,3.4,0.418182,True,False
+hour_weekday,p_up Tue 04,"H1 P(up), Tue 04:00 UTC",308,0.506494,probability,0.227921,0.819708,3.4,0.418182,1,,0.963369,False,3.4,0.418182,True,False
+hour_weekday,mean Tue 05,"H1 mean return, Tue 05:00 UTC",338,0.236095,pips,0.646418,0.518008,3.6,0.236095,1,,0.881647,False,3.6,0.236095,True,False
+hour_weekday,p_up Tue 05,"H1 P(up), Tue 05:00 UTC",336,0.532738,probability,1.2002,0.230062,3.6,0.236095,1,,0.624574,False,3.6,0.236095,True,False
+hour_weekday,mean Tue 06,"H1 mean return, Tue 06:00 UTC",358,-0.757821,pips,-1.22928,0.218968,5.8,0.757821,1,,0.624574,False,5.8,0.757821,True,False
+hour_weekday,p_up Tue 06,"H1 P(up), Tue 06:00 UTC",357,0.464986,probability,-1.32314,0.185789,5.8,0.757821,1,,0.617867,False,5.8,0.757821,True,False
+hour_weekday,mean Tue 07,"H1 mean return, Tue 07:00 UTC",361,0.895845,pips,1.13476,0.256477,7.2,0.895845,1,,0.658632,False,7.2,0.895845,True,False
+hour_weekday,p_up Tue 07,"H1 P(up), Tue 07:00 UTC",358,0.497207,probability,-0.105703,0.915818,7.2,0.895845,1,,0.973435,False,7.2,0.895845,True,False
+hour_weekday,mean Tue 08,"H1 mean return, Tue 08:00 UTC",361,-0.205817,pips,-0.243249,0.807813,9.1,0.205817,1,,0.963369,False,9.1,0.205817,True,False
+hour_weekday,p_up Tue 08,"H1 P(up), Tue 08:00 UTC",360,0.513889,probability,0.527046,0.598161,9.1,0.205817,1,,0.908826,False,9.1,0.205817,True,False
+hour_weekday,mean Tue 09,"H1 mean return, Tue 09:00 UTC",362,-0.797238,pips,-1.31041,0.190058,6.6,0.797238,1,,0.617867,False,6.6,0.797238,True,False
+hour_weekday,p_up Tue 09,"H1 P(up), Tue 09:00 UTC",360,0.461111,probability,-1.47573,0.140017,6.6,0.797238,1,,0.561816,False,6.6,0.797238,True,False
+hour_weekday,mean Tue 10,"H1 mean return, Tue 10:00 UTC",362,-0.821271,pips,-1.39987,0.161551,5.8,0.821271,1,,0.602999,False,5.8,0.821271,True,False
+hour_weekday,p_up Tue 10,"H1 P(up), Tue 10:00 UTC",361,0.451524,probability,-1.84211,0.0654598,5.8,0.821271,1,,0.412011,False,5.8,0.821271,True,False
+hour_weekday,mean Tue 11,"H1 mean return, Tue 11:00 UTC",361,-0.400554,pips,-0.66027,0.50908,6.5,0.400554,1,,0.881647,False,6.5,0.400554,True,False
+hour_weekday,p_up Tue 11,"H1 P(up), Tue 11:00 UTC",361,0.493075,probability,-0.263158,0.792429,6.5,0.400554,1,,0.963369,False,6.5,0.400554,True,False
+hour_weekday,mean Tue 12,"H1 mean return, Tue 12:00 UTC",362,-0.987569,pips,-1.30664,0.191334,7.95,0.987569,1,,0.617867,False,7.95,0.987569,True,False
+hour_weekday,p_up Tue 12,"H1 P(up), Tue 12:00 UTC",362,0.458564,probability,-1.57676,0.11485,7.95,0.987569,1,,0.524346,False,7.95,0.987569,True,False
+hour_weekday,mean Tue 13,"H1 mean return, Tue 13:00 UTC",363,0.636088,pips,0.778738,0.436134,8.8,0.636088,1,,0.843367,False,8.8,0.636088,True,False
+hour_weekday,p_up Tue 13,"H1 P(up), Tue 13:00 UTC",361,0.515235,probability,0.578947,0.562625,8.8,0.636088,1,,0.882758,False,8.8,0.636088,True,False
+hour_weekday,mean Tue 14,"H1 mean return, Tue 14:00 UTC",363,-1.35868,pips,-1.59092,0.111628,9.6,1.35868,1,,0.524346,False,9.6,1.35868,True,False
+hour_weekday,p_up Tue 14,"H1 P(up), Tue 14:00 UTC",362,0.458564,probability,-1.57676,0.11485,9.6,1.35868,1,,0.524346,False,9.6,1.35868,True,False
+hour_weekday,mean Tue 15,"H1 mean return, Tue 15:00 UTC",363,-0.0338843,pips,-0.0421666,0.966366,8.1,0.0338843,1,,0.996971,False,8.1,0.0338843,True,False
+hour_weekday,p_up Tue 15,"H1 P(up), Tue 15:00 UTC",361,0.537396,probability,1.42105,0.155301,8.1,0.0338843,1,,0.593473,False,8.1,0.0338843,True,False
+hour_weekday,mean Tue 16,"H1 mean return, Tue 16:00 UTC",361,0.476177,pips,0.718272,0.472589,7.1,0.476177,1,,0.871846,False,7.1,0.476177,True,False
+hour_weekday,p_up Tue 16,"H1 P(up), Tue 16:00 UTC",360,0.5,probability,0,1,7.1,0.476177,1,,1,False,7.1,0.476177,True,False
+hour_weekday,mean Tue 17,"H1 mean return, Tue 17:00 UTC",359,0.636212,pips,1.20318,0.228908,5.8,0.636212,1,,0.624574,False,5.8,0.636212,True,False
+hour_weekday,p_up Tue 17,"H1 P(up), Tue 17:00 UTC",357,0.515406,probability,0.582182,0.560444,5.8,0.636212,1,,0.882758,False,5.8,0.636212,True,False
+hour_weekday,mean Tue 18,"H1 mean return, Tue 18:00 UTC",357,-0.543697,pips,-1.1964,0.23154,5.3,0.543697,1,,0.624574,False,5.3,0.543697,True,False
+hour_weekday,p_up Tue 18,"H1 P(up), Tue 18:00 UTC",353,0.464589,probability,-1.33062,0.183315,5.3,0.543697,1,,0.617867,False,5.3,0.543697,True,False
+hour_weekday,mean Tue 19,"H1 mean return, Tue 19:00 UTC",349,0.109742,pips,0.247383,0.804611,4.3,0.109742,1,,0.963369,False,4.3,0.109742,True,False
+hour_weekday,p_up Tue 19,"H1 P(up), Tue 19:00 UTC",348,0.497126,probability,-0.107211,0.914621,4.3,0.109742,1,,0.973435,False,4.3,0.109742,True,False
+hour_weekday,mean Tue 20,"H1 mean return, Tue 20:00 UTC",315,-0.56381,pips,-1.60169,0.109224,3.5,0.56381,1,,0.524346,False,3.5,0.56381,True,False
+hour_weekday,p_up Tue 20,"H1 P(up), Tue 20:00 UTC",313,0.450479,probability,-1.75222,0.0797354,3.5,0.56381,1,,0.482926,False,3.5,0.56381,True,False
+hour_weekday,mean Tue 21,"H1 mean return, Tue 21:00 UTC",233,0.293133,pips,0.905857,0.365011,2.7,0.293133,2.7,,0.782301,False,1,0.108568,False,False
+hour_weekday,p_up Tue 21,"H1 P(up), Tue 21:00 UTC",231,0.562771,probability,1.90806,0.0563835,2.7,0.293133,2.7,,0.385087,False,1,0.108568,False,False
+hour_weekday,mean Tue 22,"H1 mean return, Tue 22:00 UTC",202,1.15891,pips,2.94109,0.00327063,2.55,1.15891,1.1,,0.0617573,False,2.31818,1.05356,True,False
+hour_weekday,p_up Tue 22,"H1 P(up), Tue 22:00 UTC",197,0.619289,probability,3.34861,0.000812176,2.55,1.15891,1.1,,0.0260709,True,2.31818,1.05356,True,False
+hour_weekday,mean Tue 23,"H1 mean return, Tue 23:00 UTC",272,0.760294,pips,2.29949,0.0214773,2.7,0.760294,1.1,,0.18927,False,2.45455,0.691176,True,False
+hour_weekday,p_up Tue 23,"H1 P(up), Tue 23:00 UTC",269,0.572491,probability,2.37787,0.0174129,2.7,0.760294,1.1,,0.16938,False,2.45455,0.691176,True,False
+hour_weekday,mean Wed 00,"H1 mean return, Wed 00:00 UTC",349,-1.11519,pips,-2.41368,0.0157923,4,1.11519,1,,0.158417,False,4,1.11519,True,False
+hour_weekday,p_up Wed 00,"H1 P(up), Wed 00:00 UTC",349,0.432665,probability,-2.51585,0.0118745,4,1.11519,1,,0.141175,False,4,1.11519,True,False
+hour_weekday,mean Wed 01,"H1 mean return, Wed 01:00 UTC",355,0.714648,pips,1.71157,0.0869751,4,0.714648,1,,0.498554,False,4,0.714648,True,False
+hour_weekday,p_up Wed 01,"H1 P(up), Wed 01:00 UTC",354,0.528249,probability,1.06299,0.287787,4,0.714648,1,,0.682004,False,4,0.714648,True,False
+hour_weekday,mean Wed 02,"H1 mean return, Wed 02:00 UTC",348,0.504885,pips,1.11137,0.266407,3.3,0.504885,1,,0.675473,False,3.3,0.504885,True,False
+hour_weekday,p_up Wed 02,"H1 P(up), Wed 02:00 UTC",344,0.537791,probability,1.40183,0.160967,3.3,0.504885,1,,0.602999,False,3.3,0.504885,True,False
+hour_weekday,mean Wed 03,"H1 mean return, Wed 03:00 UTC",311,0.678778,pips,1.43248,0.152007,3,0.678778,1,,0.587884,False,3,0.678778,True,False
+hour_weekday,p_up Wed 03,"H1 P(up), Wed 03:00 UTC",308,0.480519,probability,-0.683763,0.494125,3,0.678778,1,,0.877934,False,3,0.678778,True,False
+hour_weekday,mean Wed 04,"H1 mean return, Wed 04:00 UTC",310,-0.442258,pips,-1.23642,0.216304,3,0.442258,1,,0.624574,False,3,0.442258,True,False
+hour_weekday,p_up Wed 04,"H1 P(up), Wed 04:00 UTC",307,0.47557,probability,-0.856095,0.391945,3,0.442258,1,,0.823751,False,3,0.442258,True,False
+hour_weekday,mean Wed 05,"H1 mean return, Wed 05:00 UTC",324,0.530864,pips,1.46458,0.143035,3.25,0.530864,1,,0.566841,False,3.25,0.530864,True,False
+hour_weekday,p_up Wed 05,"H1 P(up), Wed 05:00 UTC",322,0.57764,probability,2.78639,0.00532985,3.25,0.530864,1,,0.095049,False,3.25,0.530864,True,False
+hour_weekday,mean Wed 06,"H1 mean return, Wed 06:00 UTC",355,-0.556056,pips,-1.03498,0.30068,5.3,0.556056,1,,0.699408,False,5.3,0.556056,True,False
+hour_weekday,p_up Wed 06,"H1 P(up), Wed 06:00 UTC",353,0.458924,probability,-1.54351,0.122706,5.3,0.556056,1,,0.527897,False,5.3,0.556056,True,False
+hour_weekday,mean Wed 07,"H1 mean return, Wed 07:00 UTC",360,-0.734167,pips,-0.980634,0.326773,8,0.734167,1,,0.728433,False,8,0.734167,True,False
+hour_weekday,p_up Wed 07,"H1 P(up), Wed 07:00 UTC",357,0.473389,probability,-1.00559,0.314614,8,0.734167,1,,0.711206,False,8,0.734167,True,False
+hour_weekday,mean Wed 08,"H1 mean return, Wed 08:00 UTC",363,-1.10386,pips,-1.68365,0.0922494,7.5,1.10386,1,,0.510553,False,7.5,1.10386,True,False
+hour_weekday,p_up Wed 08,"H1 P(up), Wed 08:00 UTC",363,0.482094,probability,-0.682323,0.495035,7.5,1.10386,1,,0.877934,False,7.5,1.10386,True,False
+hour_weekday,mean Wed 09,"H1 mean return, Wed 09:00 UTC",361,-1.19501,pips,-1.91125,0.0559718,6.2,1.19501,1,,0.385087,False,6.2,1.19501,True,False
+hour_weekday,p_up Wed 09,"H1 P(up), Wed 09:00 UTC",358,0.477654,probability,-0.845626,0.397761,6.2,1.19501,1,,0.823751,False,6.2,1.19501,True,False
+hour_weekday,mean Wed 10,"H1 mean return, Wed 10:00 UTC",362,-0.696133,pips,-1.1993,0.230413,5.3,0.696133,1,,0.624574,False,5.3,0.696133,True,False
+hour_weekday,p_up Wed 10,"H1 P(up), Wed 10:00 UTC",359,0.467967,probability,-1.21389,0.224788,5.3,0.696133,1,,0.624574,False,5.3,0.696133,True,False
+hour_weekday,mean Wed 11,"H1 mean return, Wed 11:00 UTC",363,-1.30441,pips,-2.48162,0.0130788,6.2,1.30441,1,,0.147399,False,6.2,1.30441,True,False
+hour_weekday,p_up Wed 11,"H1 P(up), Wed 11:00 UTC",363,0.449036,probability,-1.942,0.0521375,6.2,1.30441,1,,0.371914,False,6.2,1.30441,True,False
+hour_weekday,mean Wed 12,"H1 mean return, Wed 12:00 UTC",363,0.497245,pips,0.642694,0.520423,7.5,0.497245,1,,0.881647,False,7.5,0.497245,True,False
+hour_weekday,p_up Wed 12,"H1 P(up), Wed 12:00 UTC",361,0.515235,probability,0.578947,0.562625,7.5,0.497245,1,,0.882758,False,7.5,0.497245,True,False
+hour_weekday,mean Wed 13,"H1 mean return, Wed 13:00 UTC",363,0.76832,pips,0.874908,0.381624,8.5,0.76832,1,,0.811267,False,8.5,0.76832,True,False
+hour_weekday,p_up Wed 13,"H1 P(up), Wed 13:00 UTC",360,0.511111,probability,0.421637,0.67329,8.5,0.76832,1,,0.92758,False,8.5,0.76832,True,False
+hour_weekday,mean Wed 14,"H1 mean return, Wed 14:00 UTC",363,-0.749311,pips,-0.853653,0.393297,8.8,0.749311,1,,0.823751,False,8.8,0.749311,True,False
+hour_weekday,p_up Wed 14,"H1 P(up), Wed 14:00 UTC",362,0.458564,probability,-1.57676,0.11485,8.8,0.749311,1,,0.524346,False,8.8,0.749311,True,False
+hour_weekday,mean Wed 15,"H1 mean return, Wed 15:00 UTC",363,0.721212,pips,0.974004,0.330055,7.3,0.721212,1,,0.73035,False,7.3,0.721212,True,False
+hour_weekday,p_up Wed 15,"H1 P(up), Wed 15:00 UTC",363,0.504132,probability,0.157459,0.874883,7.3,0.721212,1,,0.963369,False,7.3,0.721212,True,False
+hour_weekday,mean Wed 16,"H1 mean return, Wed 16:00 UTC",362,0.589779,pips,1.08223,0.279151,6.1,0.589779,1,,0.682004,False,6.1,0.589779,True,False
+hour_weekday,p_up Wed 16,"H1 P(up), Wed 16:00 UTC",360,0.525,probability,0.948683,0.342782,6.1,0.589779,1,,0.748523,False,6.1,0.589779,True,False
+hour_weekday,mean Wed 17,"H1 mean return, Wed 17:00 UTC",360,0.848611,pips,1.38285,0.16671,5.2,0.848611,1,,0.608112,False,5.2,0.848611,True,False
+hour_weekday,p_up Wed 17,"H1 P(up), Wed 17:00 UTC",357,0.526611,probability,1.00559,0.314614,5.2,0.848611,1,,0.711206,False,5.2,0.848611,True,False
+hour_weekday,mean Wed 18,"H1 mean return, Wed 18:00 UTC",357,0.42381,pips,0.378749,0.704874,5.6,0.42381,1,,0.935576,False,5.6,0.42381,True,False
+hour_weekday,p_up Wed 18,"H1 P(up), Wed 18:00 UTC",353,0.481586,probability,-0.69192,0.488987,5.6,0.42381,1,,0.877934,False,5.6,0.42381,True,False
+hour_weekday,mean Wed 19,"H1 mean return, Wed 19:00 UTC",355,1.31211,pips,1.63509,0.102031,6,1.31211,1,,0.524346,False,6,1.31211,True,False
+hour_weekday,p_up Wed 19,"H1 P(up), Wed 19:00 UTC",354,0.5,probability,0,1,6,1.31211,1,,1,False,6,1.31211,True,False
+hour_weekday,mean Wed 20,"H1 mean return, Wed 20:00 UTC",331,-0.927492,pips,-1.8481,0.0645878,4.3,0.927492,1,,0.412011,False,4.3,0.927492,True,False
+hour_weekday,p_up Wed 20,"H1 P(up), Wed 20:00 UTC",327,0.464832,probability,-1.2719,0.203408,4.3,0.927492,1,,0.624574,False,4.3,0.927492,True,False
+hour_weekday,mean Wed 21,"H1 mean return, Wed 21:00 UTC",241,-0.0215768,pips,-0.0436735,0.965165,3.3,0.0215768,2.7,,0.996971,False,1.22222,0.00799139,False,False
+hour_weekday,p_up Wed 21,"H1 P(up), Wed 21:00 UTC",240,0.55,probability,1.54919,0.121335,3.3,0.0215768,2.7,,0.527897,False,1.22222,0.00799139,False,False
+hour_weekday,mean Wed 22,"H1 mean return, Wed 22:00 UTC",239,1.41841,pips,4.0434,5.26822e-05,3.3,1.41841,1.2,,0.00422775,True,2.75,1.18201,True,False
+hour_weekday,p_up Wed 22,"H1 P(up), Wed 22:00 UTC",238,0.693277,probability,5.96347,2.4693e-09,3.3,1.41841,1.2,,7.92646e-07,True,2.75,1.18201,True,False
+hour_weekday,mean Wed 23,"H1 mean return, Wed 23:00 UTC",272,-0.208824,pips,-0.540077,0.589144,3.1,0.208824,1.1,,0.908826,False,2.81818,0.18984,True,False
+hour_weekday,p_up Wed 23,"H1 P(up), Wed 23:00 UTC",268,0.511194,probability,0.366508,0.713986,3.1,0.208824,1.1,,0.935576,False,2.81818,0.18984,True,False
+hour_weekday,mean Thu 00,"H1 mean return, Thu 00:00 UTC",348,0.522126,pips,1.04143,0.297677,4.2,0.522126,1,,0.697477,False,4.2,0.522126,True,False
+hour_weekday,p_up Thu 00,"H1 P(up), Thu 00:00 UTC",348,0.479885,probability,-0.750479,0.452966,4.2,0.522126,1,,0.860368,False,4.2,0.522126,True,False
+hour_weekday,mean Thu 01,"H1 mean return, Thu 01:00 UTC",356,0.326124,pips,0.722474,0.470003,4.4,0.326124,1,,0.871846,False,4.4,0.326124,True,False
+hour_weekday,p_up Thu 01,"H1 P(up), Thu 01:00 UTC",353,0.512748,probability,0.479022,0.631923,4.4,0.326124,1,,0.926635,False,4.4,0.326124,True,False
+hour_weekday,mean Thu 02,"H1 mean return, Thu 02:00 UTC",346,0.715896,pips,1.85336,0.0638309,3.95,0.715896,1,,0.412011,False,3.95,0.715896,True,False
+hour_weekday,p_up Thu 02,"H1 P(up), Thu 02:00 UTC",345,0.571014,probability,2.63807,0.0083379,3.95,0.715896,1,,0.112457,False,3.95,0.715896,True,False
+hour_weekday,mean Thu 03,"H1 mean return, Thu 03:00 UTC",329,0.0592705,pips,0.169837,0.865139,3.3,0.0592705,1,,0.963369,False,3.3,0.0592705,True,False
+hour_weekday,p_up Thu 03,"H1 P(up), Thu 03:00 UTC",323,0.517028,probability,0.612056,0.5405,3.3,0.0592705,1,,0.882758,False,3.3,0.0592705,True,False
+hour_weekday,mean Thu 04,"H1 mean return, Thu 04:00 UTC",310,-0.0880645,pips,-0.295881,0.767321,3.2,0.0880645,1,,0.963369,False,3.2,0.0880645,True,False
+hour_weekday,p_up Thu 04,"H1 P(up), Thu 04:00 UTC",308,0.477273,probability,-0.797724,0.425031,3.2,0.0880645,1,,0.83192,False,3.2,0.0880645,True,False
+hour_weekday,mean Thu 05,"H1 mean return, Thu 05:00 UTC",340,0.0547059,pips,0.144213,0.885333,3.65,0.0547059,1,,0.963369,False,3.65,0.0547059,True,False
+hour_weekday,p_up Thu 05,"H1 P(up), Thu 05:00 UTC",340,0.482353,probability,-0.650791,0.515181,3.65,0.0547059,1,,0.881647,False,3.65,0.0547059,True,False
+hour_weekday,mean Thu 06,"H1 mean return, Thu 06:00 UTC",355,-0.154085,pips,-0.286029,0.774856,6,0.154085,1,,0.963369,False,6,0.154085,True,False
+hour_weekday,p_up Thu 06,"H1 P(up), Thu 06:00 UTC",354,0.488701,probability,-0.425195,0.670694,6,0.154085,1,,0.92758,False,6,0.154085,True,False
+hour_weekday,mean Thu 07,"H1 mean return, Thu 07:00 UTC",365,-0.123836,pips,-0.143209,0.886125,8,0.123836,1,,0.963369,False,8,0.123836,True,False
+hour_weekday,p_up Thu 07,"H1 P(up), Thu 07:00 UTC",364,0.516484,probability,0.628971,0.529368,8,0.123836,1,,0.881647,False,8,0.123836,True,False
+hour_weekday,mean Thu 08,"H1 mean return, Thu 08:00 UTC",365,1.14685,pips,1.49871,0.13395,8,1.14685,1,,0.544276,False,8,1.14685,True,False
+hour_weekday,p_up Thu 08,"H1 P(up), Thu 08:00 UTC",363,0.539945,probability,1.52211,0.127983,8,1.14685,1,,0.533538,False,8,1.14685,True,False
+hour_weekday,mean Thu 09,"H1 mean return, Thu 09:00 UTC",364,-0.0846154,pips,-0.127962,0.898179,7.3,0.0846154,1,,0.97076,False,7.3,0.0846154,True,False
+hour_weekday,p_up Thu 09,"H1 P(up), Thu 09:00 UTC",362,0.469613,probability,-1.15629,0.247561,7.3,0.0846154,1,,0.646073,False,7.3,0.0846154,True,False
+hour_weekday,mean Thu 10,"H1 mean return, Thu 10:00 UTC",364,-0.493132,pips,-0.822428,0.410833,7,0.493132,1,,0.829418,False,7,0.493132,True,False
+hour_weekday,p_up Thu 10,"H1 P(up), Thu 10:00 UTC",364,0.467033,probability,-1.25794,0.208413,7,0.493132,1,,0.624574,False,7,0.493132,True,False
+hour_weekday,mean Thu 11,"H1 mean return, Thu 11:00 UTC",365,-1.18137,pips,-1.62263,0.104668,7.2,1.18137,1,,0.524346,False,7.2,1.18137,True,False
+hour_weekday,p_up Thu 11,"H1 P(up), Thu 11:00 UTC",363,0.490358,probability,-0.367405,0.713317,7.2,1.18137,1,,0.935576,False,7.2,1.18137,True,False
+hour_weekday,mean Thu 12,"H1 mean return, Thu 12:00 UTC",365,-0.275342,pips,-0.246968,0.804933,8.4,0.275342,1,,0.963369,False,8.4,0.275342,True,False
+hour_weekday,p_up Thu 12,"H1 P(up), Thu 12:00 UTC",365,0.484932,probability,-0.575766,0.564773,8.4,0.275342,1,,0.882758,False,8.4,0.275342,True,False
+hour_weekday,mean Thu 13,"H1 mean return, Thu 13:00 UTC",365,-0.329315,pips,-0.286759,0.774297,9.7,0.329315,1,,0.963369,False,9.7,0.329315,True,False
+hour_weekday,p_up Thu 13,"H1 P(up), Thu 13:00 UTC",365,0.490411,probability,-0.366397,0.714069,9.7,0.329315,1,,0.935576,False,9.7,0.329315,True,False
+hour_weekday,mean Thu 14,"H1 mean return, Thu 14:00 UTC",365,-0.310685,pips,-0.283522,0.776777,9.3,0.310685,1,,0.963369,False,9.3,0.310685,True,False
+hour_weekday,p_up Thu 14,"H1 P(up), Thu 14:00 UTC",364,0.5,probability,0,1,9.3,0.310685,1,,1,False,9.3,0.310685,True,False
+hour_weekday,mean Thu 15,"H1 mean return, Thu 15:00 UTC",364,-1.88489,pips,-2.06131,0.0392738,7.9,1.88489,1,,0.315172,False,7.9,1.88489,True,False
+hour_weekday,p_up Thu 15,"H1 P(up), Thu 15:00 UTC",364,0.447802,probability,-1.99174,0.0463995,7.9,1.88489,1,,0.338505,False,7.9,1.88489,True,False
+hour_weekday,mean Thu 16,"H1 mean return, Thu 16:00 UTC",364,-0.096978,pips,-0.141689,0.887326,7.1,0.096978,1,,0.963369,False,7.1,0.096978,True,False
+hour_weekday,p_up Thu 16,"H1 P(up), Thu 16:00 UTC",362,0.466851,probability,-1.26141,0.20716,7.1,0.096978,1,,0.624574,False,7.1,0.096978,True,False
+hour_weekday,mean Thu 17,"H1 mean return, Thu 17:00 UTC",359,-0.0389972,pips,-0.0560571,0.955296,6.1,0.0389972,1,,0.995617,False,6.1,0.0389972,True,False
+hour_weekday,p_up Thu 17,"H1 P(up), Thu 17:00 UTC",357,0.509804,probability,0.370479,0.711025,6.1,0.0389972,1,,0.935576,False,6.1,0.0389972,True,False
+hour_weekday,mean Thu 18,"H1 mean return, Thu 18:00 UTC",356,1.32949,pips,2.32653,0.0199904,5.65,1.32949,1,,0.184139,False,5.65,1.32949,True,False
+hour_weekday,p_up Thu 18,"H1 P(up), Thu 18:00 UTC",355,0.526761,probability,1.00842,0.313255,5.65,1.32949,1,,0.711206,False,5.65,1.32949,True,False
+hour_weekday,mean Thu 19,"H1 mean return, Thu 19:00 UTC",355,0.493239,pips,0.81728,0.413768,4.6,0.493239,1,,0.830123,False,4.6,0.493239,True,False
+hour_weekday,p_up Thu 19,"H1 P(up), Thu 19:00 UTC",353,0.524079,probability,0.904819,0.365561,4.6,0.493239,1,,0.782301,False,4.6,0.493239,True,False
+hour_weekday,mean Thu 20,"H1 mean return, Thu 20:00 UTC",321,-0.680997,pips,-1.69732,0.0896361,3.5,0.680997,1,,0.504793,False,3.5,0.680997,True,False
+hour_weekday,p_up Thu 20,"H1 P(up), Thu 20:00 UTC",320,0.44375,probability,-2.01246,0.0441713,3.5,0.680997,1,,0.337595,False,3.5,0.680997,True,False
+hour_weekday,mean Thu 21,"H1 mean return, Thu 21:00 UTC",232,-0.595259,pips,-1.33544,0.181733,3,0.595259,2.7,,0.617867,False,1.11111,0.220466,False,False
+hour_weekday,p_up Thu 21,"H1 P(up), Thu 21:00 UTC",232,0.482759,probability,-0.525226,0.599426,3,0.595259,2.7,,0.908826,False,1.11111,0.220466,False,False
+hour_weekday,mean Thu 22,"H1 mean return, Thu 22:00 UTC",222,0.777477,pips,1.65336,0.0982579,2.8,0.777477,1.1,,0.524346,False,2.54545,0.706798,True,False
+hour_weekday,p_up Thu 22,"H1 P(up), Thu 22:00 UTC",221,0.61086,probability,3.2961,0.000980383,2.8,0.777477,1.1,,0.0286093,True,2.54545,0.706798,True,False
+hour_weekday,mean Thu 23,"H1 mean return, Thu 23:00 UTC",272,-3.91843e-17,pips,-7.94782e-17,1,3.1,3.91843e-17,1.1,,1,False,2.81818,3.56221e-17,True,False
+hour_weekday,p_up Thu 23,"H1 P(up), Thu 23:00 UTC",268,0.533582,probability,1.09952,0.271539,3.1,3.91843e-17,1.1,,0.680969,False,2.81818,3.56221e-17,True,False
+hour_weekday,mean Fri 00,"H1 mean return, Fri 00:00 UTC",337,-0.189614,pips,-0.455347,0.648859,4.3,0.189614,1,,0.92758,False,4.3,0.189614,True,False
+hour_weekday,p_up Fri 00,"H1 P(up), Fri 00:00 UTC",336,0.455357,probability,-1.63663,0.101707,4.3,0.189614,1,,0.524346,False,4.3,0.189614,True,False
+hour_weekday,mean Fri 01,"H1 mean return, Fri 01:00 UTC",352,0.438636,pips,1.01988,0.307783,3.8,0.438636,1,,0.71078,False,3.8,0.438636,True,False
+hour_weekday,p_up Fri 01,"H1 P(up), Fri 01:00 UTC",349,0.518625,probability,0.695874,0.486508,3.8,0.438636,1,,0.877934,False,3.8,0.438636,True,False
+hour_weekday,mean Fri 02,"H1 mean return, Fri 02:00 UTC",350,0.324571,pips,0.412282,0.680133,3.25,0.324571,1,,0.932271,False,3.25,0.324571,True,False
+hour_weekday,p_up Fri 02,"H1 P(up), Fri 02:00 UTC",348,0.534483,probability,1.28654,0.198256,3.25,0.324571,1,,0.617867,False,3.25,0.324571,True,False
+hour_weekday,mean Fri 03,"H1 mean return, Fri 03:00 UTC",316,0.228481,pips,0.652516,0.514068,2.5,0.228481,1,,0.881647,False,2.5,0.228481,True,False
+hour_weekday,p_up Fri 03,"H1 P(up), Fri 03:00 UTC",311,0.565916,probability,2.3249,0.0200775,2.5,0.228481,1,,0.184139,False,2.5,0.228481,True,False
+hour_weekday,mean Fri 04,"H1 mean return, Fri 04:00 UTC",300,-0.0803333,pips,-0.228125,0.819549,2.9,0.0803333,1,,0.963369,False,2.9,0.0803333,True,False
+hour_weekday,p_up Fri 04,"H1 P(up), Fri 04:00 UTC",295,0.508475,probability,0.291111,0.770966,2.9,0.0803333,1,,0.963369,False,2.9,0.0803333,True,False
+hour_weekday,mean Fri 05,"H1 mean return, Fri 05:00 UTC",327,0.25474,pips,0.582871,0.55998,3.2,0.25474,1,,0.882758,False,3.2,0.25474,True,False
+hour_weekday,p_up Fri 05,"H1 P(up), Fri 05:00 UTC",323,0.513932,probability,0.500773,0.616531,3.2,0.25474,1,,0.924796,False,3.2,0.25474,True,False
+hour_weekday,mean Fri 06,"H1 mean return, Fri 06:00 UTC",357,-0.152381,pips,-0.280254,0.779283,6,0.152381,1,,0.963369,False,6,0.152381,True,False
+hour_weekday,p_up Fri 06,"H1 P(up), Fri 06:00 UTC",356,0.5,probability,0,1,6,0.152381,1,,1,False,6,0.152381,True,False
+hour_weekday,mean Fri 07,"H1 mean return, Fri 07:00 UTC",359,-0.384123,pips,-0.474593,0.635077,7,0.384123,1,,0.926635,False,7,0.384123,True,False
+hour_weekday,p_up Fri 07,"H1 P(up), Fri 07:00 UTC",357,0.507003,probability,0.264628,0.791296,7,0.384123,1,,0.963369,False,7,0.384123,True,False
+hour_weekday,mean Fri 08,"H1 mean return, Fri 08:00 UTC",360,-0.108611,pips,-0.142505,0.886681,7.55,0.108611,1,,0.963369,False,7.55,0.108611,True,False
+hour_weekday,p_up Fri 08,"H1 P(up), Fri 08:00 UTC",355,0.512676,probability,0.47767,0.632885,7.55,0.108611,1,,0.926635,False,7.55,0.108611,True,False
+hour_weekday,mean Fri 09,"H1 mean return, Fri 09:00 UTC",360,-0.801944,pips,-1.22782,0.219515,6.65,0.801944,1,,0.624574,False,6.65,0.801944,True,False
+hour_weekday,p_up Fri 09,"H1 P(up), Fri 09:00 UTC",357,0.495798,probability,-0.158777,0.873845,6.65,0.801944,1,,0.963369,False,6.65,0.801944,True,False
+hour_weekday,mean Fri 10,"H1 mean return, Fri 10:00 UTC",360,-0.396389,pips,-0.64811,0.516914,6,0.396389,1,,0.881647,False,6,0.396389,True,False
+hour_weekday,p_up Fri 10,"H1 P(up), Fri 10:00 UTC",356,0.488764,probability,-0.423999,0.671566,6,0.396389,1,,0.92758,False,6,0.396389,True,False
+hour_weekday,mean Fri 11,"H1 mean return, Fri 11:00 UTC",360,-1.77111,pips,-3.0553,0.00224835,6.2,1.77111,1,,0.0515514,False,6.2,1.77111,True,False
+hour_weekday,p_up Fri 11,"H1 P(up), Fri 11:00 UTC",360,0.441667,probability,-2.21359,0.0268567,6.2,1.77111,1,,0.226868,False,6.2,1.77111,True,False
+hour_weekday,mean Fri 12,"H1 mean return, Fri 12:00 UTC",359,0.46351,pips,0.380328,0.703702,9.1,0.46351,1,,0.935576,False,9.1,0.46351,True,False
+hour_weekday,p_up Fri 12,"H1 P(up), Fri 12:00 UTC",356,0.502809,probability,0.106,0.915583,9.1,0.46351,1,,0.973435,False,9.1,0.46351,True,False
+hour_weekday,mean Fri 13,"H1 mean return, Fri 13:00 UTC",361,-1.15679,pips,-1.15849,0.246663,9,1.15679,1,,0.646073,False,9,1.15679,True,False
+hour_weekday,p_up Fri 13,"H1 P(up), Fri 13:00 UTC",361,0.479224,probability,-0.789474,0.429835,9,1.15679,1,,0.836225,False,9,1.15679,True,False
+hour_weekday,mean Fri 14,"H1 mean return, Fri 14:00 UTC",360,-0.530556,pips,-0.524082,0.600221,10.15,0.530556,1,,0.908826,False,10.15,0.530556,True,False
+hour_weekday,p_up Fri 14,"H1 P(up), Fri 14:00 UTC",360,0.505556,probability,0.210819,0.833029,10.15,0.530556,1,,0.963369,False,10.15,0.530556,True,False
+hour_weekday,mean Fri 15,"H1 mean return, Fri 15:00 UTC",359,-0.0167131,pips,-0.0198426,0.984169,7.9,0.0167131,1,,0.99987,False,7.9,0.0167131,True,False
+hour_weekday,p_up Fri 15,"H1 P(up), Fri 15:00 UTC",356,0.505618,probability,0.212,0.832107,7.9,0.0167131,1,,0.963369,False,7.9,0.0167131,True,False
+hour_weekday,mean Fri 16,"H1 mean return, Fri 16:00 UTC",358,0.742737,pips,1.17694,0.239218,7,0.742737,1,,0.634619,False,7,0.742737,True,False
+hour_weekday,p_up Fri 16,"H1 P(up), Fri 16:00 UTC",356,0.570225,probability,2.64999,0.0080493,7,0.742737,1,,0.112457,False,7,0.742737,True,False
+hour_weekday,mean Fri 17,"H1 mean return, Fri 17:00 UTC",348,0.116667,pips,0.24077,0.809733,5.1,0.116667,1,,0.963369,False,5.1,0.116667,True,False
+hour_weekday,p_up Fri 17,"H1 P(up), Fri 17:00 UTC",346,0.50289,probability,0.107521,0.914376,5.1,0.116667,1,,0.973435,False,5.1,0.116667,True,False
+hour_weekday,mean Fri 18,"H1 mean return, Fri 18:00 UTC",343,-0.857434,pips,-1.73128,0.0834021,4.2,0.857434,1,,0.486765,False,4.2,0.857434,True,False
+hour_weekday,p_up Fri 18,"H1 P(up), Fri 18:00 UTC",342,0.479532,probability,-0.757033,0.44903,4.2,0.857434,1,,0.860368,False,4.2,0.857434,True,False
+hour_weekday,mean Fri 19,"H1 mean return, Fri 19:00 UTC",343,1.29504,pips,2.4461,0.014441,4,1.29504,1,,0.154519,False,4,1.29504,True,False
+hour_weekday,p_up Fri 19,"H1 P(up), Fri 19:00 UTC",339,0.587021,probability,3.20444,0.00135325,4,1.29504,1,,0.033415,True,4,1.29504,True,False
+hour_weekday,mean Fri 20,"H1 mean return, Fri 20:00 UTC",320,-0.872188,pips,-2.02935,0.0424222,4.3,0.872188,1.1,,0.332135,False,3.90909,0.792898,True,False
+hour_weekday,p_up Fri 20,"H1 P(up), Fri 20:00 UTC",315,0.431746,probability,-2.42278,0.0154024,4.3,0.872188,1.1,,0.158417,False,3.90909,0.792898,True,False
+hour_weekday,mean Fri 21,"H1 mean return, Fri 21:00 UTC",108,-2.5287,pips,-3.56577,0.000362784,4.55,2.5287,1,,0.0145567,True,4.55,2.5287,True,True
+hour_weekday,p_up Fri 21,"H1 P(up), Fri 21:00 UTC",108,0.314815,probability,-3.849,0.0001186,4.55,2.5287,1,,0.00634511,True,4.55,2.5287,True,True
+hour_weekday,mean Sun 22,"H1 mean return, Sun 22:00 UTC",159,1.58553,pips,2.18072,0.0292039,4,1.58553,1.1,,0.24037,False,3.63636,1.4414,True,False
+hour_weekday,p_up Sun 22,"H1 P(up), Sun 22:00 UTC",158,0.620253,probability,3.02312,0.00250185,4,1.58553,1.1,,0.0535396,False,3.63636,1.4414,True,False
+hour_weekday,mean Sun 23,"H1 mean return, Sun 23:00 UTC",265,-0.803774,pips,-1.50846,0.131438,4,0.803774,1.1,,0.540918,False,3.63636,0.730703,True,False
+hour_weekday,p_up Sun 23,"H1 P(up), Sun 23:00 UTC",264,0.481061,probability,-0.615457,0.538253,4,0.803774,1.1,,0.882758,False,3.63636,0.730703,True,False
+autocorr,M15 lag1 all,"M15 return autocorrelation, lag 1, all",164189,-0.0263273,rho,-4.34741,1.37754e-05,2.5,0.127132,1,-0.127132,0.00221096,True,2.5,0.127132,True,False
+autocorr,M15 lag1 asia,"M15 return autocorrelation, lag 1, asia",47944,-0.0337511,rho,-2.29355,0.0218162,1.9,0.139242,1,-0.139242,0.18927,False,1.9,0.139242,False,False
+autocorr,M15 lag1 london,"M15 return autocorrelation, lag 1, london",36147,-0.0126311,rho,-1.56099,0.118527,3.4,0.0592387,1,-0.0592387,0.527897,False,3.4,0.0592387,True,False
+autocorr,M15 lag1 ny,"M15 return autocorrelation, lag 1, ny",64247,-0.0302893,rho,-3.26458,0.00109628,3,0.147808,1,-0.147808,0.0293256,True,3,0.147808,True,False
+autocorr,M15 lag2 all,"M15 return autocorrelation, lag 2, all",163479,0.00100586,rho,0.20516,0.837447,2.5,0.0188685,1,-0.0188685,0.963369,False,2.5,0.0188685,True,False
+autocorr,M15 lag2 asia,"M15 return autocorrelation, lag 2, asia",47675,-0.0109542,rho,-0.832689,0.40502,1.9,0.0452313,1,-0.0452313,0.826846,False,1.9,0.0452313,False,False
+autocorr,M15 lag2 london,"M15 return autocorrelation, lag 2, london",36132,-0.00570701,rho,-0.703758,0.481583,3.4,0.0478938,1,-0.0478938,0.877934,False,3.4,0.0478938,True,False
+autocorr,M15 lag2 ny,"M15 return autocorrelation, lag 2, ny",64273,0.00779814,rho,1.10943,0.267243,3,0.0117592,1,0.0117592,0.675473,False,3,0.0117592,True,False
+autocorr,M15 lag3 all,"M15 return autocorrelation, lag 3, all",163002,-0.00135294,rho,-0.27666,0.782041,2.5,0.0142955,1,-0.0142955,0.963369,False,2.5,0.0142955,True,False
+autocorr,M15 lag3 asia,"M15 return autocorrelation, lag 3, asia",47426,-0.00615958,rho,-0.440068,0.659888,1.9,0.015637,1,-0.015637,0.92758,False,1.9,0.015637,False,False
+autocorr,M15 lag3 london,"M15 return autocorrelation, lag 3, london",36111,0.00179264,rho,0.227996,0.819649,3.4,0.0119603,1,-0.0119603,0.963369,False,3.4,0.0119603,True,False
+autocorr,M15 lag3 ny,"M15 return autocorrelation, lag 3, ny",64386,-0.0011771,rho,-0.169243,0.865605,3,0.0186888,1,-0.0186888,0.963369,False,3,0.0186888,True,False
+autocorr,M15 lag4 all,"M15 return autocorrelation, lag 4, all",162546,0.0077038,rho,1.36862,0.171118,2.5,0.00699433,1,-0.00699433,0.617178,False,2.5,0.00699433,True,False
+autocorr,M15 lag4 asia,"M15 return autocorrelation, lag 4, asia",47239,0.0244289,rho,1.62121,0.104973,1.9,0.025915,1,0.025915,0.524346,False,1.9,0.025915,False,False
+autocorr,M15 lag4 london,"M15 return autocorrelation, lag 4, london",36105,0.00744155,rho,0.91831,0.358457,3.4,0.00876333,1,-0.00876333,0.777463,False,3.4,0.00876333,True,False
+autocorr,M15 lag4 ny,"M15 return autocorrelation, lag 4, ny",64432,0.00480539,rho,0.575926,0.564665,3,0.0286395,1,-0.0286395,0.882758,False,3,0.0286395,True,False
+autocorr,M15 lag5 all,"M15 return autocorrelation, lag 5, all",162121,-0.00603945,rho,-1.09291,0.274432,2.5,0.0327663,1,-0.0327663,0.682004,False,2.5,0.0327663,True,False
+autocorr,M15 lag5 asia,"M15 return autocorrelation, lag 5, asia",46899,-0.0171077,rho,-1.06172,0.288362,1.9,0.0377385,1,-0.0377385,0.682004,False,1.9,0.0377385,False,False
+autocorr,M15 lag5 london,"M15 return autocorrelation, lag 5, london",36076,0.00327414,rho,0.434008,0.664283,3.4,0.0439129,1,-0.0439129,0.92758,False,3.4,0.0439129,True,False
+autocorr,M15 lag5 ny,"M15 return autocorrelation, lag 5, ny",64432,-0.00692063,rho,-0.849975,0.395339,3,0.0239927,1,-0.0239927,0.823751,False,3,0.0239927,True,False
+autocorr,M15 lag6 all,"M15 return autocorrelation, lag 6, all",161695,0.00644395,rho,1.3532,0.17599,2.5,0.00553016,1,0.00553016,0.617867,False,2.5,0.00553016,True,False
+autocorr,M15 lag6 asia,"M15 return autocorrelation, lag 6, asia",46613,0.0268871,rho,1.53993,0.123578,1.9,0.020844,1,0.020844,0.527897,False,1.9,0.020844,False,False
+autocorr,M15 lag6 london,"M15 return autocorrelation, lag 6, london",36033,-0.00793143,rho,-1.07567,0.282075,3.4,0.0340299,1,-0.0340299,0.682004,False,3.4,0.0340299,True,False
+autocorr,M15 lag6 ny,"M15 return autocorrelation, lag 6, ny",64450,0.00979547,rho,1.53418,0.124985,3,0.0168084,1,0.0168084,0.527897,False,3,0.0168084,True,False
+autocorr,M15 lag7 all,"M15 return autocorrelation, lag 7, all",161262,0.00243519,rho,0.576456,0.564307,2.5,0.00653843,1,0.00653843,0.882758,False,2.5,0.00653843,True,False
+autocorr,M15 lag7 asia,"M15 return autocorrelation, lag 7, asia",46296,0.0037744,rho,0.270315,0.786918,1.9,0.00474987,1,-0.00474987,0.963369,False,1.9,0.00474987,False,False
+autocorr,M15 lag7 london,"M15 return autocorrelation, lag 7, london",35958,0.00366343,rho,0.486706,0.626467,3.4,0.0130541,1,-0.0130541,0.926635,False,3.4,0.0130541,True,False
+autocorr,M15 lag7 ny,"M15 return autocorrelation, lag 7, ny",64486,0.00320539,rho,0.573206,0.566505,3,0.0358434,1,0.0358434,0.882758,False,3,0.0358434,True,False
+autocorr,M15 lag8 all,"M15 return autocorrelation, lag 8, all",160870,-0.000126011,rho,-0.0320162,0.974459,2.5,0.0011127,1,0.0011127,0.997826,False,2.5,0.0011127,True,False
+autocorr,M15 lag8 asia,"M15 return autocorrelation, lag 8, asia",45970,0.000756439,rho,0.0630789,0.949704,1.9,0.00221666,1,-0.00221666,0.993013,False,1.9,0.00221666,False,False
+autocorr,M15 lag8 london,"M15 return autocorrelation, lag 8, london",35903,-0.00502513,rho,-0.718549,0.472419,3.4,0.00915522,1,0.00915522,0.871846,False,3.4,0.00915522,True,False
+autocorr,M15 lag8 ny,"M15 return autocorrelation, lag 8, ny",64501,0.00101716,rho,0.18942,0.849764,3,0.000283717,1,-0.000283717,0.963369,False,3,0.000283717,True,False
+autocorr,H1 lag1 all,"H1 return autocorrelation, lag 1, all",37650,0.00830053,rho,0.829214,0.406983,5.3,0.124544,1,-0.124544,0.826846,False,5.3,0.124544,True,False
+autocorr,H1 lag1 asia,"H1 return autocorrelation, lag 1, asia",10540,0.032045,rho,1.071,0.284167,3.8,0.0557021,1,-0.0557021,0.682004,False,3.8,0.0557021,True,False
+autocorr,H1 lag1 london,"H1 return autocorrelation, lag 1, london",8965,-0.00113442,rho,-0.0795299,0.936611,6.9,0.0040937,1,0.0040937,0.985371,False,6.9,0.0040937,True,False
+autocorr,H1 lag1 ny,"H1 return autocorrelation, lag 1, ny",15753,0.00966556,rho,0.670084,0.502804,6.2,0.207954,1,-0.207954,0.881647,False,6.2,0.207954,True,False
+autocorr,H1 lag2 all,"H1 return autocorrelation, lag 2, all",36976,-0.00106251,rho,-0.12117,0.903557,5.3,0.0648475,1,-0.0648475,0.973294,False,5.3,0.0648475,True,False
+autocorr,H1 lag2 asia,"H1 return autocorrelation, lag 2, asia",9858,0.0238209,rho,0.809647,0.418143,3.8,0.0846318,1,-0.0846318,0.83192,False,3.8,0.0846318,True,False
+autocorr,H1 lag2 london,"H1 return autocorrelation, lag 2, london",8810,-0.00834203,rho,-0.56517,0.571958,6.9,0.1137,1,-0.1137,0.886949,False,6.9,0.1137,True,False
+autocorr,H1 lag2 ny,"H1 return autocorrelation, lag 2, ny",15791,-0.000460856,rho,-0.0388389,0.969019,6.2,0.00499652,1,-0.00499652,0.996971,False,6.2,0.00499652,True,False
+autocorr,H1 lag3 all,"H1 return autocorrelation, lag 3, all",36387,-0.00702236,rho,-0.830441,0.40629,5.2,0.0966609,1,-0.0966609,0.826846,False,5.2,0.0966609,True,False
+autocorr,H1 lag3 asia,"H1 return autocorrelation, lag 3, asia",9216,-0.0353918,rho,-0.995699,0.319396,3.7,0.039974,1,-0.039974,0.716966,False,3.7,0.039974,True,False
+autocorr,H1 lag3 london,"H1 return autocorrelation, lag 3, london",8516,-0.0210533,rho,-1.38463,0.166164,6.9,0.252067,1,-0.252067,0.608112,False,6.9,0.252067,True,False
+autocorr,H1 lag3 ny,"H1 return autocorrelation, lag 3, ny",15824,0.00288197,rho,0.270737,0.786593,6.2,0.0582217,1,-0.0582217,0.963369,False,6.2,0.0582217,True,False
+autocorr,H1 lag4 all,"H1 return autocorrelation, lag 4, all",35996,-0.00317669,rho,-0.432646,0.665272,5.2,0.0320258,1,0.0320258,0.92758,False,5.2,0.0320258,True,False
+autocorr,H1 lag4 asia,"H1 return autocorrelation, lag 4, asia",8998,-0.00387682,rho,-0.158263,0.87425,3.7,0.063403,1,0.063403,0.963369,False,3.7,0.063403,True,False
+autocorr,H1 lag4 london,"H1 return autocorrelation, lag 4, london",8268,0.00151272,rho,0.0867602,0.930862,6.9,0.0373851,1,0.0373851,0.984547,False,6.9,0.0373851,True,False
+autocorr,H1 lag4 ny,"H1 return autocorrelation, lag 4, ny",15841,-0.00244035,rho,-0.26617,0.790108,6.2,0.0355344,1,0.0355344,0.963369,False,6.2,0.0355344,True,False
+autocorr,H1 lag5 all,"H1 return autocorrelation, lag 5, all",35699,-0.0102463,rho,-1.13627,0.255842,5.3,0.0608644,1,-0.0608644,0.658632,False,5.3,0.0608644,True,False
+autocorr,H1 lag5 asia,"H1 return autocorrelation, lag 5, asia",8800,-0.0241915,rho,-1.30277,0.192654,3.9,0.0653523,1,-0.0653523,0.617867,False,3.9,0.0653523,True,False
+autocorr,H1 lag5 london,"H1 return autocorrelation, lag 5, london",8159,-0.0436445,rho,-1.20065,0.229887,6.9,0.0155166,1,0.0155166,0.624574,False,6.9,0.0155166,True,False
+autocorr,H1 lag5 ny,"H1 return autocorrelation, lag 5, ny",15833,-0.00287642,rho,-0.295688,0.767469,6.2,0.102198,1,-0.102198,0.963369,False,6.2,0.102198,True,False
+autocorr,H1 lag6 all,"H1 return autocorrelation, lag 6, all",35364,0.000215831,rho,0.030001,0.976066,5.3,0.0336048,1,-0.0336048,0.997826,False,5.3,0.0336048,True,False
+autocorr,H1 lag6 asia,"H1 return autocorrelation, lag 6, asia",8531,-0.00468295,rho,-0.271653,0.785889,4,0.0103505,1,-0.0103505,0.963369,False,4,0.0103505,True,False
+autocorr,H1 lag6 london,"H1 return autocorrelation, lag 6, london",8116,0.0122748,rho,0.634745,0.525595,7,0.0240143,1,-0.0240143,0.881647,False,7,0.0240143,True,False
+autocorr,H1 lag6 ny,"H1 return autocorrelation, lag 6, ny",15799,-0.000731892,rho,-0.0761178,0.939325,6.2,0.0372049,1,-0.0372049,0.985371,False,6.2,0.0372049,True,False
+autocorr,H1 lag7 all,"H1 return autocorrelation, lag 7, all",34935,-0.00315882,rho,-0.440985,0.659224,5.3,0.0443424,1,-0.0443424,0.92758,False,5.3,0.0443424,True,False
+autocorr,H1 lag7 asia,"H1 return autocorrelation, lag 7, asia",8212,-0.0197502,rho,-1.06587,0.286481,3.9,0.111678,1,-0.111678,0.682004,False,3.9,0.111678,True,False
+autocorr,H1 lag7 london,"H1 return autocorrelation, lag 7, london",8153,0.00264932,rho,0.141567,0.887422,7,0.0547038,1,-0.0547038,0.963369,False,7,0.0547038,True,False
+autocorr,H1 lag7 ny,"H1 return autocorrelation, lag 7, ny",15641,0.00233441,rho,0.239867,0.810433,6.2,0.0257336,1,0.0257336,0.963369,False,6.2,0.0257336,True,False
+autocorr,H1 lag8 all,"H1 return autocorrelation, lag 8, all",34483,0.000985395,rho,0.140405,0.88834,5.2,0.0338225,1,-0.0338225,0.963369,False,5.2,0.0338225,True,False
+autocorr,H1 lag8 asia,"H1 return autocorrelation, lag 8, asia",8228,-0.00989878,rho,-0.705234,0.480665,3.8,0.0490642,1,0.0490642,0.877934,False,3.8,0.0490642,True,False
+autocorr,H1 lag8 london,"H1 return autocorrelation, lag 8, london",7978,-0.00961673,rho,-0.409049,0.682504,6.9,0.276561,1,-0.276561,0.932271,False,6.9,0.276561,True,False
+autocorr,H1 lag8 ny,"H1 return autocorrelation, lag 8, ny",15345,0.012115,rho,1.29526,0.195231,6.2,0.0805409,1,0.0805409,0.617867,False,6.2,0.0805409,True,False
+big_moves,after up +1h,H1 return 1h after a up bar with |ret| > p95 (23.5 pips),972,0.0141975,pips,0.0196837,0.984296,10.3,0.0141975,1,,0.99987,False,10.3,0.0141975,True,False
+big_moves,after down +1h,H1 return 1h after a down bar with |ret| > p95 (23.5 pips),1001,-0.728571,pips,-1.24254,0.214038,10.4,0.728571,1,,0.624574,False,10.4,0.728571,True,False
+big_moves,after up +4h,H1 return 4h after a up bar with |ret| > p95 (23.5 pips),926,-0.824514,pips,-0.593259,0.553008,19.1,0.824514,1,,0.882758,False,19.1,0.824514,True,False
+big_moves,after down +4h,H1 return 4h after a down bar with |ret| > p95 (23.5 pips),963,-1.07747,pips,-0.754154,0.450757,18.7,1.07747,1,,0.860368,False,18.7,1.07747,True,False
+big_moves,after up +24h,H1 return 24h after a up bar with |ret| > p95 (23.5 pips),775,-4.52284,pips,-1.18762,0.234984,45.6,4.52284,1,,0.628582,False,45.6,4.52284,True,True
+big_moves,after down +24h,H1 return 24h after a down bar with |ret| > p95 (23.5 pips),758,-7.56675,pips,-1.99362,0.0461938,39.3,7.56675,1,,0.338505,False,39.3,7.56675,True,True
+sessions,corr asia->london,correlation of asia and london session returns,1210,-0.069398,rho,-1.62662,0.103818,17.9,0.472397,1,-0.472397,0.524346,False,17.9,0.472397,True,False
+sessions,same sign asia->london,P(same sign) asia -> london,1201,0.497918,probability,-0.144277,0.885281,17.9,0.472397,1,-0.472397,0.963369,False,17.9,0.472397,True,False
+sessions,corr london->ny,correlation of london and ny session returns,1508,0.00979724,rho,0.327899,0.742988,22.45,0.0351459,1,-0.0351459,0.963369,False,22.45,0.0351459,True,False
+sessions,same sign london->ny,P(same sign) london -> ny,1500,0.504,probability,0.309839,0.756684,22.45,0.0351459,1,-0.0351459,0.963369,False,22.45,0.0351459,True,False
+sessions,corr asia->ny,correlation of asia and ny session returns,1095,-0.00752529,rho,-0.157458,0.874884,22.6,0.613973,1,0.613973,0.963369,False,22.6,0.613973,True,False
+sessions,same sign asia->ny,P(same sign) asia -> ny,1086,0.507366,probability,0.485518,0.627309,22.6,0.613973,1,0.613973,0.926635,False,22.6,0.613973,True,False
+sessions,corr ny->next asia,correlation of ny and next asia session returns,1517,-0.0326679,rho,-1.2541,0.209805,10.7,0.123072,1,-0.123072,0.624574,False,10.7,0.123072,True,False
+sessions,same sign ny->next asia,P(same sign) ny -> next asia,1504,0.492021,probability,-0.618853,0.536013,10.7,0.123072,1,-0.123072,0.882758,False,10.7,0.123072,True,False
+month_end,abs move month-end vs other,London 15-17 |return|: last weekday of month minus other days,82,8.05169,pips,,4.99975e-05,19.8,,1,,0.00422775,True,19.8,,True,False
+month_end,signed month-end vs 0,London 15-17 mean return on the last weekday of month,82,-4.27805,pips,,0.211689,19.8,4.27805,1,,0.624574,False,19.8,4.27805,True,True
+month_end,signed month-end vs other,London 15-17 mean return: month-end minus other days,82,-4.22326,pips,,0.0817959,19.8,4.27805,1,,0.486231,False,19.8,4.27805,True,True

@@ -1,25 +1,20 @@
-Шинэ ажил: backtest engine v1. Commit хийхгүй.
+Шинэ ажил: Sweep + MSS стратеги, TRAIN дээр. Commit хийхгүй.
+Engine: src/backtest/engine.py, trial log-д бүртгэ.
 
-1. src/backtest/engine.py:
-   - Оролт: bar DataFrame (M15/H1, UTC), signal функц, cost_model (p75)
-   - Signal нь зөвхөн тухайн bar хаагдсаны дараах мэдээллийг ашиглана;
-     орох үнэ = ДАРААГИЙН bar-ийн open (look-ahead хамгаалалт)
-   - Long/short, нэг позиц, тогтмол хэмжээ (1 lot), барих хугацаа эсвэл
-     signal-ээр хаах
-   - Rollover / weekly_open цагт шинээр орохгүй (cost_for flag)
-   - any_gap/any_flag bar-т шинээр орохгүй
-   - Зардлыг арилжаа бүрт cost_for(entry_time)-аар хасна
-2. Хэмжүүр: арилжааны тоо, win rate, avg win, avg loss, expectancy (pip,
-   зардлын дараа), нийт pip, max drawdown, Sharpe (өдрийн), жил бүрийн
-   үр дүн, t-stat.
-3. Trial log: ажиллуулалт бүрийг reports/trials/trials.csv-д нэмнэ
-   (огноо, стратеги, параметр, split, хэмжүүрүүд, git hash). Устгахгүй.
-4. Splits guard ашигла: default нь зөвхөн train.
-5. Baseline-ууд (train дээр ажиллуул):
-   a) Санамсаргүй: H1, өдөрт ~1 арилжаа, 4 цаг барих, тогтмол seed,
-   100 удаа давтаад expectancy-ийн тархалт
-   b) MA crossover H1 (20/50)
-   c) Pre-registered: Даваа 13:00 UTC long, 14:00 хаах
-6. Тест: look-ahead (signal ирээдүйн bar харахгүй), зардал зөв хасагдсан,
-   санамсаргүй стратегийн expectancy ≈ −зардал.
-7. reports/backtest*baselines*<ts>/summary.md
+Дүрмүүд урьдчилан царцаасан, үр дүнг хараад параметр өөрчлөхгүй:
+
+- Trend (H4, M15 bar-уудаас үүсгэ): хаагдсан H4 close > EMA50 → зөвхөн long,
+  < EMA50 → зөвхөн short
+- Asia range: тухайн өдрийн 00:00–07:00 UTC-ийн high/low
+- Sweep (M15, 12:00–17:00 UTC): long-д bar-ийн low < Asia low БА close > Asia low.
+  Short-д эсрэгээр (high > Asia high БА close < Asia high).
+- MSS: sweep-ээс хойш 8 M15 bar дотор close нь sweep-ийн өмнөх сүүлийн
+  swing high-аас (long) / swing low-оос (short) давж хаагдах.
+  Swing = 2 bar-ийн fractal (хоёр талдаа 2 bar).
+- Орох: MSS bar-ийн дараагийн bar-ийн open. Өдөрт хамгийн ихдээ 1 арилжаа.
+- Гарах: 4 цаг, эсвэл 20:45 UTC, аль нь түрүүлнэ.
+- Stop/target байхгүй (v1). Зөвхөн хугацаагаар гарна.
+
+Үр дүн: engine-ийн бүх хэмжүүр, жил бүрээр, long/short тусад нь,
+санамсаргүй baseline-тай харьцуулалт.
+reports/strategy*sweep_mss*<ts>/summary.md

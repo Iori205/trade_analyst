@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-11-02T09:12:34Z",
+  "git_commit": "648a8c78cf83b2983ceee67d9e27f86191e5d306",
+  "git_dirty": true,
+  "data_sha256": "6090cb8014ada01c8adf71c54ee999d1f9a5ae019f8d6272329279b1d11ac3ba",
+  "percentile": "p75",
+  "trials_added": 201,
+  "trials_total": 303,
+  "p_bar": 0.008055640211413917,
+  "h1_random_median": -0.8456665,
+  "frozen_rules": {
+    "trend_tf": "H4",
+    "ema": 50,
+    "asia_utc": "00:00-07:00",
+    "sweep_window_utc": "12:00-17:00",
+    "mss_bars": 8,
+    "fractal": 2,
+    "max_trades_per_day": 1,
+    "hold_hours": 4,
+    "exit_clock_utc": "20:45",
+    "stop": null,
+    "target": null
+  },
+  "metrics": {
+    "trades": 366,
+    "win_rate": 0.42896174863387976,
+    "avg_win_pips": 20.59808917197452,
+    "avg_loss_pips": -19.360765550239236,
+    "expectancy_pips": -2.219945355191257,
+    "total_pips": -812.5,
+    "max_drawdown_pips": 1345.1999999999998,
+    "sharpe_daily": -0.5199565720601116,
+    "t_stat": -1.401500654063535,
+    "mean_cost_pips": 1.0
+  },
+  "sides": {
+    "long": {
+      "trades": 183,
+      "win_rate": 0.43169398907103823,
+      "avg_win_pips": 22.099999999999998,
+      "avg_loss_pips": -18.35673076923077,
+      "expectancy_pips": -0.8918032786885245,
+      "total_pips": -163.2,
+      "max_drawdown_pips": 577.3,
+      "sharpe_daily": -0.1479558069327634,
+      "t_stat": -0.3975572464619875,
+      "mean_cost_pips": 1.0
+    },
+    "short": {
+      "trades": 183,
+      "win_rate": 0.4262295081967213,
+      "avg_win_pips": 19.076923076923077,
+      "avg_loss_pips": -20.355238095238093,
+      "expectancy_pips": -3.5480874316939888,
+      "total_pips": -649.3,
+      "max_drawdown_pips": 908.5999999999998,
+      "sharpe_daily": -0.5864141670935284,
+      "t_stat": -1.5848291613311105,
+      "mean_cost_pips": 1.0
+    }
+  },
+  "funnel": {
+    "days_with_trend": 1806,
+    "signals": 368,
+    "sweeps": 1352,
+    "sweeps_without_swing": 0,
+    "mss": 368
+  },
+  "random": {
+    "runs": 100,
+    "seed0": 20261103,
+    "window_min_utc": [
+      720,
+      1125
+    ]
+  }
+}

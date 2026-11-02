@@ -188,3 +188,17 @@ def test_run_backtest_defaults_to_train_and_guards_test(tmp_path, monkeypatch):
         run_backtest(ctx, always(1, hold=2), "H1", split="test")
     rows = list(csv.DictReader(open(root / "reports/trials/trials.csv")))
     assert len(rows) == 1 and json.loads(rows[0]["params"])["hold_bars"] == 2   # the refused run is not logged
+
+
+def test_exit_clock_whichever_first():
+    bars = make_bars(4 * 24 * 2, start="2019-01-07 00:00", freq="15min")
+    entries = {"2019-01-07 17:00": 1, "2019-01-08 20:15": 1}
+
+    def signal(h):
+        return entries.get(str(pd.Timestamp(h.time[-1]))[:16]) if h.position == 0 else None
+    strat = Strategy("clock", signal, {}, hold_bars=16, exit_on_signal=False, exit_clock_utc="20:45")
+    trades = backtest(prepare(bars, StubCost()), strat, "M15")
+    assert [str(t)[11:16] for t in trades["entry_time"]] == ["17:15", "20:30"]
+    assert [str(t)[11:16] for t in trades["exit_time"]] == ["20:45", "20:45"]    # 4h would be 21:15 and 00:30 (next day)
+    early = Strategy("clock", signal, {}, hold_bars=4, exit_on_signal=False, exit_clock_utc="20:45")
+    assert str(backtest(prepare(bars, StubCost()), early, "M15")["exit_time"].iloc[0])[11:16] == "18:15"

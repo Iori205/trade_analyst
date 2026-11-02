@@ -4,7 +4,7 @@ Timing (look-ahead protection):
   At the close of bar i the signal sees a History whose arrays end at bar i
   (numpy views; there is nothing later to read). Any order it causes fills at the
   OPEN of bar i+1. A time exit fills at the open of the first bar starting at or
-  after entry_time + hold_bars * timeframe.
+  after entry_time + hold_bars * timeframe (or the exit_clock_utc time, if earlier).
 
 Entries are skipped (exits never are) when the entry bar
   - is not the bar right after the signal bar (e.g. after a weekend or data gap),
@@ -79,6 +79,7 @@ class Strategy:
     params: dict = field(default_factory=dict)
     hold_bars: int | None = None        # time exit after this many bars; None = no time exit
     exit_on_signal: bool = True         # close when the signal asks for 0 or the opposite side
+    exit_clock_utc: str | None = None   # "HH:MM": also exit at this UTC time of day, whichever comes first
 
 
 def prepare(bars: pd.DataFrame, cost_model: CostModel, percentile: str | None = None) -> dict:
@@ -88,12 +89,19 @@ def prepare(bars: pd.DataFrame, cost_model: CostModel, percentile: str | None = 
     cost = cost_model.cost_for(times, percentile)
     blocked = (cost["is_rollover"] | cost["is_weekly_open"] | cost["is_market_closed"]).to_numpy()
     return {
-        "time": times.to_numpy(), "open": b["open"].to_numpy(float), "high": b["high"].to_numpy(float),
+        "time": times.tz_convert("UTC").tz_localize(None).to_numpy(), "open": b["open"].to_numpy(float), "high": b["high"].to_numpy(float),
         "low": b["low"].to_numpy(float), "close": b["close"].to_numpy(float),
         "clean": (~b["any_gap"].astype(bool) & ~b["any_flag"].astype(bool)).to_numpy(),
         "cost": cost["total_pips"].to_numpy(float), "blocked": blocked,
         "percentile": str(cost["percentile"].iloc[0]) if len(cost) else percentile,
     }
+
+
+def clock_after(when: np.datetime64, hhmm: str) -> np.datetime64:
+    """The first UTC time-of-day hhmm strictly after `when` (same day, else the next day)."""
+    h, m = (int(x) for x in hhmm.split(":"))
+    clock = when.astype("datetime64[D]").astype(when.dtype) + np.timedelta64(h * 60 + m, "m")
+    return clock if clock > when else clock + np.timedelta64(1, "D")
 
 
 def backtest(data: dict, strategy: Strategy, timeframe: str) -> pd.DataFrame:
@@ -124,6 +132,9 @@ def backtest(data: dict, strategy: Strategy, timeframe: str) -> pd.DataFrame:
         if pos == 0 and desired in (-1, 1) and t[nxt] - t[i] == step and data["clean"][nxt] and not data["blocked"][nxt]:
             pos, entry_i = desired, nxt
             due = t[nxt] + step * strategy.hold_bars if strategy.hold_bars else None
+            if strategy.exit_clock_utc:
+                clock = clock_after(t[nxt], strategy.exit_clock_utc)
+                due = clock if due is None else min(due, clock)
     if pos:
         close_at(n - 1, c[n - 1], t[n - 1] + step, "end_of_data")
     out = pd.DataFrame(trades, columns=["direction", "entry_time", "exit_time", "entry_price", "exit_price",
@@ -241,7 +252,8 @@ def run_backtest(ctx: Context, strategy: Strategy, timeframe: str, split: str = 
     m = metrics(trades, meta["start"], meta["end"])
     record = {"run_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "strategy": strategy.name,
               "params": json.dumps({**strategy.params, "hold_bars": strategy.hold_bars,
-                                    "exit_on_signal": strategy.exit_on_signal}, sort_keys=True),
+                                    "exit_on_signal": strategy.exit_on_signal,
+                                    "exit_clock_utc": strategy.exit_clock_utc}, sort_keys=True),
               "split": split, "timeframe": timeframe, "cost_percentile": ctx.percentile,
               "data_sha256": meta["sha256"], **git_state(ctx.root),
               **{k: (round(v, 6) if isinstance(v, float) else v) for k, v in m.items()}}

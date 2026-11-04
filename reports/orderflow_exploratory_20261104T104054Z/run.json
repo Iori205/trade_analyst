@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "cost": "p75",
+    "inputs": {
+      "orderflow_6e_m15_train.parquet": "8736559dbb8b9b3677ed34831d01b5a0a836d0d342f10425736ea9cfe1873cd1",
+      "orderflow_6e_h1_train.parquet": "dcde60129b42aba282e1db06e23b67e84c87417cbea273ca6d854b6ac4f2969d"
+    },
+    "counts": {
+      "M15": {
+        "flow_bars": 70966,
+        "roll_flag": 12,
+        "degraded_flag": 817,
+        "pre_roll_thin": 1087,
+        "left_out": 1916,
+        "matched_clean_spot": 68586,
+        "with_delta_ratio_and_fwd_1": 65235,
+        "absorption": 364,
+        "divergence": 657,
+        "continuation": 4748,
+        "thin_volume_ratio": 0.177
+      },
+      "H1": {
+        "flow_bars": 17753,
+        "roll_flag": 12,
+        "degraded_flag": 205,
+        "pre_roll_thin": 277,
+        "left_out": 494,
+        "matched_clean_spot": 16424,
+        "with_delta_ratio_and_fwd_1": 15073,
+        "absorption": 122,
+        "divergence": 330,
+        "continuation": 971,
+        "thin_volume_ratio": 0.174
+      }
+    }
+  },
+  "tests": 276
+}

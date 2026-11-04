@@ -1,0 +1,5 @@
+test,control,n,r_feature,z_feature,r_spot_control,z_spot_control,r_after_control,z_after_control
+M15 h1 all delta_ratio,ret,65235,-0.013665,-4.91923,-0.023097,-3.424,-0.00648686,-2.1144
+M15 h1 ny delta_ratio,ret,25987,-0.0199157,-4.16864,-0.0312055,-2.65286,-0.0105122,-2.08196
+M15 h1 asia cum_delta,cum_ret,19455,-0.028668,-3.76085,-0.0185913,-1.71429,-0.0220648,-2.60442
+H1 h2 asia cum_delta,cum_ret,4231,-0.0879307,-3.55826,-0.0354312,-1.08066,-0.0816436,-3.19044

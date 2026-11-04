@@ -1,20 +1,26 @@
-Шинэ ажил: order flow exploratory статистик. Зөвхөн TRAIN (2019–2021).
-Validation-д хүрэхгүй. Commit хийхгүй. Side mapping: одоогийн v1 (B=buy) зөв.
+Шинэ ажил: өдрийн trend стратеги v1, EURUSD, зөвхөн TRAIN (2015–2021).
+Validation-д хүрэхгүй. Commit хийхгүй. Trial log-д бүх хувилбарыг бүртгэ.
 
-Эх: data/processed/orderflow_6e/v1/ (M15, H1) + манай spot EURUSD bars v1.
-roll_flag, degraded_flag, roll-ийн өмнөх Баасан гаригийн bar-уудыг хас
-(шинэ flag: pre_roll_thin — roll-оос өмнөх ажлын өдөр).
+1. Өдрийн bar: data/processed/eurusd_m1/v1 (C4, UTC)-ээс FX-ийн стандарт
+   New York 17:00 (America/New_York, DST-тэй) хаалтаар өдрийн OHLC үүсгэ.
+   Ням гарагийн богино bar-ыг Даваатай нэгтгэ. Flag-тай минутын хувийг тэмдэглэ.
 
-Асуулт: order flow дараагийн өгөөжийг таамагладаг уу?
+2. Хувилбарууд (параметр урьдчилан царцаасан, нийт 3 trial):
+   v1a Donchian 20/10: close > сүүлийн 20 өдрийн high → long,
+   close < 20 өдрийн low → short; эсрэг талын 10 өдрийн low/high-аар гарна
+   v1b Donchian 55/20: мөн адил, 55 / 20
+   v1c MA 50/200: 50 өдрийн SMA > 200 → long, < → short, огтлолцоход эргэнэ
+   Дохио өдрийн хаалтаар, орох = дараагийн өдрийн open.
 
-1. delta_ratio (delta/volume), delta-ийн z-score (сүүлийн 20 bar),
-   cumulative delta (session дотор), volume spike (volume / 20 bar median)
-   → ДАРААГИЙН 1, 2, 4 bar-ийн spot өгөөж (pip). M15 ба H1.
-2. Квинтилээр: delta_ratio-ийн 5 бүлэг тус бүрийн дараагийн өгөөжийн дундаж,
-   t-stat. Monotonic хамаарал байгаа эсэх.
-3. Нөхцөлт: том delta + үнэ хөдлөөгүй (absorption), том delta + үнэ
-   эсрэг хөдөлсөн (divergence) → дараагийн өгөөж.
-4. Session тус бүрээр (Asia / London / NY).
-5. Харьцуулалт: зардал ~1.0 pip. Хамгийн хүчтэй олдвор зардлыг даах уу?
-   Олон тестийн засвар: BH-FDR, нийт тестийн тоог тайлагна.
-   reports/orderflow*exploratory*<ts>/summary.md
+3. Зардал:
+   - Арилжаа бүрт cost_for (p75, ~1.0 pip)
+   - Swap: позиц барьсан шөнө бүрт тогтмол зардал, long ба short хоёуланд
+     0.5 pip/шөнө (болгоомжтой таамаг), Лхагва гарагт 3 дахин
+   - Swap-гүй хувилбарыг ч харьцуулахаар тайланд гарга
+
+4. Хэмжүүр: арилжааны тоо, win rate, avg win/loss, expectancy (pip),
+   нийт pip, жил бүрээр, max drawdown, дундаж барих хоног,
+   swap-ийн нийт зардал. Санамсаргүй baseline: ижил тооны, ижил барих
+   хугацаатай санамсаргүй чиглэлийн арилжаа, 1000 удаа.
+
+5. reports/strategy*daily_trend*<ts>/summary.md

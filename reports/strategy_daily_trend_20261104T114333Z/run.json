@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-11-04T11:43:35Z",
+  "git_commit": "cbca1fd84ae8848f2c8f215e840ba3c1f58b6d74",
+  "git_dirty": true,
+  "m1_sha": "1d342bb75300f250df423c48235df3b541dd5982f5b007a55c87e11b61eded5b",
+  "percentile": "p75",
+  "trials_total": 359,
+  "cost_median": 2.7,
+  "cost_mean": 2.793626373626374,
+  "first_fill_v1c": "2015-10-08 00:00:00",
+  "weekend_minutes": 0,
+  "missing_weekdays": [
+    "2015-12-25",
+    "2016-01-01",
+    "2017-12-25",
+    "2018-01-01",
+    "2019-01-01",
+    "2020-01-01",
+    "2021-01-01"
+  ],
+  "weekday_counts": {
+    "Mon": 363,
+    "Tue": 364,
+    "Wed": 364,
+    "Thu": 366,
+    "Fri": 363
+  },
+  "frozen": {
+    "day_close": "17:00 America/New_York",
+    "signal": "daily close",
+    "fill": "next day open",
+    "swap_pips_per_night": 0.5,
+    "swap_wednesday_multiple": 3,
+    "net_includes": "cost_for(entry) p75 and swap"
+  },
+  "variants": {
+    "v1a": {
+      "kind": "donchian",
+      "entry": 20,
+      "exit": 10
+    },
+    "v1b": {
+      "kind": "donchian",
+      "entry": 55,
+      "exit": 20
+    },
+    "v1c": {
+      "kind": "ma",
+      "fast": 50,
+      "slow": 200
+    }
+  },
+  "metrics": {
+    "v1a": {
+      "trades": 57,
+      "win_rate": 0.2982456140350877,
+      "avg_win_pips": 165.23529411764704,
+      "avg_loss_pips": -150.45999999999998,
+      "expectancy_pips": -56.305263157894714,
+      "total_pips": -3209.3999999999987,
+      "max_drawdown_pips": 3640.6999999999994,
+      "sharpe_daily": -0.8623342165816107,
+      "t_stat": -2.422756313402966,
+      "mean_cost_pips": 2.752631578947368
+    },
+    "v1b": {
+      "trades": 24,
+      "win_rate": 0.3333333333333333,
+      "avg_win_pips": 262.19999999999993,
+      "avg_loss_pips": -271.4375000000003,
+      "expectancy_pips": -93.55833333333356,
+      "total_pips": -2245.4000000000055,
+      "max_drawdown_pips": 2388.900000000005,
+      "sharpe_daily": -0.5060352977077376,
+      "t_stat": -1.3895252037030925,
+      "mean_cost_pips": 2.8250000000000006
+    },
+    "v1c": {
+      "trades": 10,
+      "win_rate": 0.4,
+      "avg_win_pips": 408.3249999999993,
+      "avg_loss_pips": -429.43333333333345,
+      "expectancy_pips": -94.33000000000034,
+      "total_pips": -943.3000000000034,
+      "max_drawdown_pips": 2074.500000000001,
+      "sharpe_daily": -0.2414920229454511,
+      "t_stat": -0.630982647759774,
+      "mean_cost_pips": 2.85
+    }
+  },
+  "metrics_no_swap": {
+    "v1a": {
+      "trades": 57,
+      "win_rate": 0.3157894736842105,
+      "avg_win_pips": 181.93333333333334,
+      "avg_loss_pips": -143.96666666666664,
+      "expectancy_pips": -41.05087719298244,
+      "total_pips": -2339.899999999999,
+      "max_drawdown_pips": 2967.1999999999994,
+      "sharpe_daily": -0.6177980388788062,
+      "t_stat": -1.6943489766643378,
+      "mean_cost_pips": 2.752631578947368
+    },
+    "v1b": {
+      "trades": 24,
+      "win_rate": 0.3333333333333333,
+      "avg_win_pips": 311.94999999999993,
+      "avg_loss_pips": -249.28125000000028,
+      "expectancy_pips": -62.2041666666669,
+      "total_pips": -1492.9000000000055,
+      "max_drawdown_pips": 2117.9000000000033,
+      "sharpe_daily": -0.32898513982272404,
+      "t_stat": -0.882503453663609,
+      "mean_cost_pips": 2.8250000000000006
+    },
+    "v1c": {
+      "trades": 10,
+      "win_rate": 0.4,
+      "avg_win_pips": 609.0749999999992,
+      "avg_loss_pips": -373.60000000000014,
+      "expectancy_pips": 19.469999999999658,
+      "total_pips": 194.69999999999658,
+      "max_drawdown_pips": 1778.500000000001,
+      "sharpe_daily": 0.04470377936668471,
+      "t_stat": 0.1143992746697797,
+      "mean_cost_pips": 2.85
+    }
+  },
+  "control": {
+    "runs": 1000,
+    "seed": 20261110
+  },
+  "script_sha256": "df919af458e1e693ed5a190c220749ce7c218f75e01c4fb73d178b2adb121ad6",
+  "environment": {
+    "python": "3.11.15",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

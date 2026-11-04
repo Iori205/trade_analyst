@@ -1,0 +1,462 @@
+{
+  "audit": {
+    "years": {
+      "2019": {
+        "rows": 12938193,
+        "expected": 12938193,
+        "ts_event_order_breaks": 0,
+        "ts_recv_order_breaks": 0,
+        "key_repeats": 25667,
+        "first": "2019-01-01 23:00:00",
+        "last": "2019-12-31 21:59:28.980783209",
+        "A": 6472189,
+        "B": 6437873,
+        "N": 28131,
+        "vol_A": 20920307,
+        "vol_B": 20775796,
+        "vol_N": 124724,
+        "size_zero": 0,
+        "minutes": 343507,
+        "minutes_differ_ts_event": 385,
+        "minutes_differ_ts_recv": 0,
+        "ts_recv_before_ts_event": 0,
+        "min_recv_minus_event_ms": 0.2,
+        "volume_trades": 41820827,
+        "volume_ohlcv": 41820827
+      },
+      "2020": {
+        "rows": 15998996,
+        "expected": 15998996,
+        "ts_event_order_breaks": 0,
+        "ts_recv_order_breaks": 0,
+        "key_repeats": 39089,
+        "first": "2020-01-01 23:00:00",
+        "last": "2020-12-31 21:59:58.513549923",
+        "A": 8010962,
+        "B": 7987259,
+        "N": 775,
+        "vol_A": 22596739,
+        "vol_B": 22458485,
+        "vol_N": 11005,
+        "size_zero": 0,
+        "minutes": 348851,
+        "minutes_differ_ts_event": 1750,
+        "minutes_differ_ts_recv": 0,
+        "ts_recv_before_ts_event": 447107,
+        "min_recv_minus_event_ms": -2158.7,
+        "volume_trades": 45066229,
+        "volume_ohlcv": 45066229
+      },
+      "2021": {
+        "rows": 11416158,
+        "expected": 11416158,
+        "ts_event_order_breaks": 0,
+        "ts_recv_order_breaks": 0,
+        "key_repeats": 27512,
+        "first": "2021-01-03 23:00:00",
+        "last": "2021-12-31 21:59:54.076604975",
+        "A": 5698882,
+        "B": 5716798,
+        "N": 478,
+        "vol_A": 19819975,
+        "vol_B": 19854562,
+        "vol_N": 5983,
+        "size_zero": 0,
+        "minutes": 345218,
+        "minutes_differ_ts_event": 385,
+        "minutes_differ_ts_recv": 0,
+        "ts_recv_before_ts_event": 3,
+        "min_recv_minus_event_ms": -23.6,
+        "volume_trades": 39680520,
+        "volume_ohlcv": 39680520
+      },
+      "2022": {
+        "rows": 16507447,
+        "expected": 16507447,
+        "ts_event_order_breaks": 0,
+        "ts_recv_order_breaks": 0,
+        "key_repeats": 22855,
+        "first": "2022-01-02 23:00:00",
+        "last": "2022-12-30 21:59:58.156403479",
+        "A": 8300508,
+        "B": 8206663,
+        "N": 276,
+        "vol_A": 24634289,
+        "vol_B": 24311755,
+        "vol_N": 4518,
+        "size_zero": 0,
+        "minutes": 350465,
+        "minutes_differ_ts_event": 395,
+        "minutes_differ_ts_recv": 0,
+        "ts_recv_before_ts_event": 0,
+        "min_recv_minus_event_ms": 0.1,
+        "volume_trades": 48950562,
+        "volume_ohlcv": 48950562
+      },
+      "2023": {
+        "rows": 14315581,
+        "expected": 14315581,
+        "ts_event_order_breaks": 0,
+        "ts_recv_order_breaks": 0,
+        "key_repeats": 15730,
+        "first": "2023-01-02 23:00:00",
+        "last": "2023-12-29 21:59:56.043399839",
+        "A": 7163798,
+        "B": 7131310,
+        "N": 20473,
+        "vol_A": 23045390,
+        "vol_B": 22916043,
+        "vol_N": 82959,
+        "size_zero": 0,
+        "minutes": 346993,
+        "minutes_differ_ts_event": 270,
+        "minutes_differ_ts_recv": 0,
+        "ts_recv_before_ts_event": 43563,
+        "min_recv_minus_event_ms": -126.3,
+        "volume_trades": 46044392,
+        "volume_ohlcv": 46044392
+      }
+    },
+    "tick": {
+      "2019": {
+        "up_A": 46864,
+        "up_B": 1152836,
+        "up_N": 5351,
+        "down_A": 1156061,
+        "down_B": 45287,
+        "down_N": 5483
+      },
+      "2020": {
+        "up_A": 123103,
+        "up_B": 1960158,
+        "up_N": 223,
+        "down_A": 1963341,
+        "down_B": 120701,
+        "down_N": 233
+      },
+      "2021": {
+        "up_A": 48708,
+        "up_B": 1258702,
+        "up_N": 174,
+        "down_A": 1260401,
+        "down_B": 48975,
+        "down_N": 140
+      },
+      "2022": {
+        "up_A": 183788,
+        "up_B": 2437820,
+        "up_N": 90,
+        "down_A": 2447704,
+        "down_B": 178219,
+        "down_N": 133
+      },
+      "2023": {
+        "up_A": 94070,
+        "up_B": 1615734,
+        "up_N": 3527,
+        "down_A": 1621187,
+        "down_B": 90735,
+        "down_N": 3286
+      }
+    },
+    "gaps_trades": {
+      "2019": {
+        "5-29m": 75,
+        "30-59m": 4,
+        "60-119m": 198,
+        "2h+ not weekend": 9,
+        "weekend": 51
+      },
+      "2020": {
+        "5-29m": 71,
+        "30-59m": 2,
+        "60-119m": 202,
+        "2h+ not weekend": 7,
+        "weekend": 50
+      },
+      "2021": {
+        "5-29m": 102,
+        "30-59m": 3,
+        "60-119m": 201,
+        "2h+ not weekend": 7,
+        "weekend": 50
+      },
+      "2022": {
+        "5-29m": 73,
+        "30-59m": 0,
+        "60-119m": 206,
+        "2h+ not weekend": 1,
+        "weekend": 50
+      },
+      "2023": {
+        "5-29m": 141,
+        "30-59m": 5,
+        "60-119m": 206,
+        "2h+ not weekend": 0,
+        "weekend": 51
+      }
+    },
+    "merge": {
+      "part_rows": 11971242,
+      "tail_rows": 966975,
+      "overlap_part_rows": 24,
+      "overlap_tail_rows": 24,
+      "removed": 24,
+      "merged_rows": 12938193,
+      "overlap_start_ns": 1574413200018310055,
+      "overlap_end_ns": 1574413201927821361,
+      "part_only_in_overlap": 0,
+      "tail_only_in_overlap": 0
+    }
+  },
+  "ohlcv_gaps": {
+    "5-29m": 1259,
+    "30-59m": 19,
+    "60-119m": 1809,
+    "2h+ not weekend": 58,
+    "weekend": 458
+  },
+  "spot": [
+    {
+      "period": "2015",
+      "pairs": 331573,
+      "r_lag0": 0.3429,
+      "best_lag": 0,
+      "r_best": 0.3429,
+      "spearman_lag0": 0.8752,
+      "spikes": 1015,
+      "r_lag0_no_spikes": 0.7313
+    },
+    {
+      "period": "2016",
+      "pairs": 331735,
+      "r_lag0": 0.9646,
+      "best_lag": 0,
+      "r_best": 0.9646,
+      "spearman_lag0": 0.9171,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9646
+    },
+    {
+      "period": "2017",
+      "pairs": 339840,
+      "r_lag0": 0.9619,
+      "best_lag": 0,
+      "r_best": 0.9619,
+      "spearman_lag0": 0.9164,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9619
+    },
+    {
+      "period": "2018",
+      "pairs": 344686,
+      "r_lag0": 0.9664,
+      "best_lag": 0,
+      "r_best": 0.9664,
+      "spearman_lag0": 0.9306,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9664
+    },
+    {
+      "period": "2019",
+      "pairs": 334232,
+      "r_lag0": 0.9515,
+      "best_lag": 0,
+      "r_best": 0.9515,
+      "spearman_lag0": 0.8833,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9515
+    },
+    {
+      "period": "2020",
+      "pairs": 342113,
+      "r_lag0": 0.9696,
+      "best_lag": 0,
+      "r_best": 0.9696,
+      "spearman_lag0": 0.9316,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9696
+    },
+    {
+      "period": "2021",
+      "pairs": 334329,
+      "r_lag0": 0.9573,
+      "best_lag": 0,
+      "r_best": 0.9573,
+      "spearman_lag0": 0.9109,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9573
+    },
+    {
+      "period": "2022",
+      "pairs": 345870,
+      "r_lag0": 0.9773,
+      "best_lag": 0,
+      "r_best": 0.9773,
+      "spearman_lag0": 0.949,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9773
+    },
+    {
+      "period": "2023",
+      "pairs": 297269,
+      "r_lag0": 0.9658,
+      "best_lag": 0,
+      "r_best": 0.9658,
+      "spearman_lag0": 0.9247,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9658
+    },
+    {
+      "period": "2023 without low_quality_period",
+      "pairs": 170748,
+      "r_lag0": 0.9681,
+      "best_lag": 0,
+      "r_best": 0.9681,
+      "spearman_lag0": 0.9273,
+      "spikes": 0,
+      "r_lag0_no_spikes": 0.9681
+    }
+  ],
+  "flags": {
+    "0": 70952854,
+    "128": 1752,
+    "4": 221769
+  },
+  "degraded": [
+    {
+      "date": "2019-01-15",
+      "trades": 78922,
+      "volume": 220708,
+      "volume / month median day": 1.44
+    },
+    {
+      "date": "2019-02-22",
+      "trades": 42441,
+      "volume": 135536,
+      "volume / month median day": 0.91
+    },
+    {
+      "date": "2019-03-13",
+      "trades": 46802,
+      "volume": 148420,
+      "volume / month median day": 1.0
+    },
+    {
+      "date": "2019-03-26",
+      "trades": 52741,
+      "volume": 159591,
+      "volume / month median day": 1.08
+    },
+    {
+      "date": "2020-02-27",
+      "trades": 92392,
+      "volume": 347019,
+      "volume / month median day": 1.9
+    },
+    {
+      "date": "2020-02-28",
+      "trades": 110513,
+      "volume": 387053,
+      "volume / month median day": 2.12
+    },
+    {
+      "date": "2020-05-05",
+      "trades": 63082,
+      "volume": 157978,
+      "volume / month median day": 1.25
+    },
+    {
+      "date": "2020-06-30",
+      "trades": 67589,
+      "volume": 189524,
+      "volume / month median day": 1.22
+    },
+    {
+      "date": "2020-07-01",
+      "trades": 60483,
+      "volume": 172068,
+      "volume / month median day": 0.95
+    },
+    {
+      "date": "2021-12-05",
+      "trades": 874,
+      "volume": 2143,
+      "volume / month median day": 0.02
+    },
+    {
+      "date": "2022-01-02",
+      "trades": 628,
+      "volume": 1860,
+      "volume / month median day": 0.01
+    },
+    {
+      "date": "2022-11-06",
+      "trades": 2035,
+      "volume": 5231,
+      "volume / month median day": 0.03
+    }
+  ],
+  "bars": {
+    "M15/train": {
+      "bars": 70966,
+      "trades": 40353347,
+      "volume": 126567576,
+      "roll_flag": 12,
+      "roll_inside_bar": 0,
+      "degraded_flag": 817,
+      "ret_log_empty": 13,
+      "first": "2019-01-01 23:00:00+00:00",
+      "last": "2021-12-31 21:45:00+00:00"
+    },
+    "M15/validation": {
+      "bars": 47379,
+      "trades": 30823028,
+      "volume": 94994954,
+      "roll_flag": 8,
+      "roll_inside_bar": 0,
+      "degraded_flag": 8,
+      "ret_log_empty": 9,
+      "first": "2022-01-02 23:00:00+00:00",
+      "last": "2023-12-29 21:45:00+00:00"
+    },
+    "H1/train": {
+      "bars": 17753,
+      "trades": 40353347,
+      "volume": 126567576,
+      "roll_flag": 12,
+      "roll_inside_bar": 0,
+      "degraded_flag": 205,
+      "ret_log_empty": 13,
+      "first": "2019-01-01 23:00:00+00:00",
+      "last": "2021-12-31 21:00:00+00:00"
+    },
+    "H1/validation": {
+      "bars": 11851,
+      "trades": 30823028,
+      "volume": 94994954,
+      "roll_flag": 8,
+      "roll_inside_bar": 0,
+      "degraded_flag": 2,
+      "ret_log_empty": 9,
+      "first": "2022-01-02 23:00:00+00:00",
+      "last": "2023-12-29 21:00:00+00:00"
+    }
+  },
+  "side_corr": {
+    "M15": {
+      "2019": 0.308,
+      "2020": 0.3143,
+      "2021": 0.3242,
+      "2022": 0.2739,
+      "2023": 0.3003
+    },
+    "H1": {
+      "2019": 0.2594,
+      "2020": 0.3029,
+      "2021": 0.2659,
+      "2022": 0.2577,
+      "2023": 0.2557
+    }
+  }
+}

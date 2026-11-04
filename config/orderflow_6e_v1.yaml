@@ -1,0 +1,30 @@
+# 6E order flow bars v1. Used by src/data/orderflow_6e.py.
+version: orderflow-6e-v1
+raw_dir: data/raw/databento/6E_v0
+output_dir: data/processed/orderflow_6e/v1
+spot_dir: data/processed/eurusd_m1/v1
+
+# Trade `side` is the aggressor's side: A = sell aggressor, B = buy aggressor
+# (databento_dbn TradeMsg docs, and the tick-rule check in the audit report).
+# prompts/next.md asked for buy=A, sell=B; see the report before changing this.
+side_map:
+  buy: B
+  sell: A
+
+# metadata.get_dataset_condition, 2015-2023 (reports/databento_download_batch1_jobs_20261104T093921Z).
+# Whole-dataset condition, not specific to 6E. UTC dates. Rows are flagged, never removed.
+degraded_days:
+  - 2017-11-13
+  - 2018-10-21
+  - 2019-01-15
+  - 2019-02-22
+  - 2019-03-13
+  - 2019-03-26
+  - 2020-02-27
+  - 2020-02-28
+  - 2020-05-05
+  - 2020-06-30
+  - 2020-07-01
+  - 2021-12-05
+  - 2022-01-02
+  - 2022-11-06

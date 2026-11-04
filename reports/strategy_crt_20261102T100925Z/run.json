@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-02T10:09:26Z",
+  "git_commit": "b5580940a1766771d2180e1a689717d2e869fc90",
+  "git_dirty": false,
+  "m15_sha": "6090cb8014ada01c8adf71c54ee999d1f9a5ae019f8d6272329279b1d11ac3ba",
+  "percentile": "p75",
+  "trials_total": 356,
+  "setups_short": 1550,
+  "setups_long": 1490,
+  "both_swept": 607,
+  "frozen": {
+    "h4_blocks_utc": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    "source": "M15",
+    "entry": "C3 open",
+    "sl": "C2 extreme, no buffer",
+    "tp": {
+      "v1a": "midpoint",
+      "v1b": "opposite"
+    },
+    "time_limit_h": 12,
+    "same_minute": "SL",
+    "skip_both_sides_swept": true
+  },
+  "metrics": {
+    "v1a": {
+      "trades": 2250,
+      "win_rate": 0.5395555555555556,
+      "avg_win_pips": 6.852265238879759,
+      "avg_loss_pips": -10.83233590733592,
+      "expectancy_pips": -1.2905111111111056,
+      "total_pips": -2903.649999999988,
+      "max_drawdown_pips": 2967.150000000003,
+      "sharpe_daily": -1.9014275205412745,
+      "t_stat": -5.2240524847277605,
+      "mean_cost_pips": 1.0040444444444445
+    },
+    "v1b": {
+      "trades": 2485,
+      "win_rate": 0.4619718309859155,
+      "avg_win_pips": 13.84155052264809,
+      "avg_loss_pips": -13.638743455497393,
+      "expectancy_pips": -0.9436217303822952,
+      "total_pips": -2344.9000000000037,
+      "max_drawdown_pips": 2474.5999999999926,
+      "sharpe_daily": -0.9738205442149922,
+      "t_stat": -2.7072575657746576,
+      "mean_cost_pips": 1.003702213279678
+    }
+  },
+  "counts": {
+    "v1a": {
+      "setups": 3040,
+      "entry_bar_missing_or_flagged": 148,
+      "blocked_rollover_weekly_open_closed": 0,
+      "bad_geometry": 545,
+      "eligible": 2347,
+      "trades": 2250
+    },
+    "v1b": {
+      "setups": 3040,
+      "entry_bar_missing_or_flagged": 148,
+      "blocked_rollover_weekly_open_closed": 0,
+      "bad_geometry": 0,
+      "eligible": 2892,
+      "trades": 2485
+    }
+  },
+  "control": {
+    "runs": 1000,
+    "seed": 20261106
+  },
+  "script_sha256": "abe6307c1acb76477850440906789e216119be399b2c98f27b097a91a73504ac",
+  "environment": {
+    "python": "3.11.15",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

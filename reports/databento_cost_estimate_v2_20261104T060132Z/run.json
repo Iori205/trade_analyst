@@ -1,0 +1,161 @@
+{
+  "dataset": "GLBX.MDP3",
+  "symbol": "6E.v.0",
+  "stype_in": "continuous",
+  "attempts": [
+    {
+      "symbol": "6E.v.0",
+      "ok": true,
+      "detail": "3,114,056 records"
+    }
+  ],
+  "a": {
+    "id": "a",
+    "schema": "ohlcv-1m",
+    "start": "2015-01-01",
+    "end": "2024-01-01",
+    "label": "ohlcv-1m, 2015-2023",
+    "symbol": "6E.v.0",
+    "records": 3114056,
+    "bytes": 174387136,
+    "usd": 11.368747353554
+  },
+  "b": {
+    "id": "b",
+    "schema": "trades",
+    "start": "2015-01-01",
+    "end": "2024-01-01",
+    "label": "trades, 2015-2023",
+    "symbol": "6E.v.0",
+    "records": 150904514,
+    "bytes": 7243416672,
+    "usd": 188.886808991432
+  },
+  "years": {
+    "2015": {
+      "id": "c2015",
+      "schema": "trades",
+      "start": "2015-01-01",
+      "end": "2016-01-01",
+      "label": "trades, 2015",
+      "symbol": "6E.v.0",
+      "records": 29992956,
+      "bytes": 1439661888,
+      "usd": 37.542109251022
+    },
+    "2016": {
+      "id": "c2016",
+      "schema": "trades",
+      "start": "2016-01-01",
+      "end": "2017-01-01",
+      "label": "trades, 2016",
+      "symbol": "6E.v.0",
+      "records": 14472583,
+      "bytes": 694683984,
+      "usd": 18.115296542644
+    },
+    "2017": {
+      "id": "c2017",
+      "schema": "trades",
+      "start": "2017-01-01",
+      "end": "2018-01-01",
+      "label": "trades, 2017",
+      "symbol": "6E.v.0",
+      "records": 15747893,
+      "bytes": 755898864,
+      "usd": 19.711598932743
+    },
+    "2018": {
+      "id": "c2018",
+      "schema": "trades",
+      "start": "2018-01-01",
+      "end": "2019-01-01",
+      "label": "trades, 2018",
+      "symbol": "6E.v.0",
+      "records": 19514707,
+      "bytes": 936705936,
+      "usd": 24.426510751247
+    },
+    "2019": {
+      "id": "c2019",
+      "schema": "trades",
+      "start": "2019-01-01",
+      "end": "2020-01-01",
+      "label": "trades, 2019",
+      "symbol": "6E.v.0",
+      "records": 12938193,
+      "bytes": 621033264,
+      "usd": 16.194704353809
+    },
+    "2020": {
+      "id": "c2020",
+      "schema": "trades",
+      "start": "2020-01-01",
+      "end": "2021-01-01",
+      "label": "trades, 2020",
+      "symbol": "6E.v.0",
+      "records": 15998996,
+      "bytes": 767951808,
+      "usd": 20.025903940201
+    },
+    "2021": {
+      "id": "c2021",
+      "schema": "trades",
+      "start": "2021-01-01",
+      "end": "2022-01-01",
+      "label": "trades, 2021",
+      "symbol": "6E.v.0",
+      "records": 11416158,
+      "bytes": 547975584,
+      "usd": 14.289576888084
+    },
+    "2022": {
+      "id": "c2022",
+      "schema": "trades",
+      "start": "2022-01-01",
+      "end": "2023-01-01",
+      "label": "trades, 2022",
+      "symbol": "6E.v.0",
+      "records": 16507447,
+      "bytes": 792357456,
+      "usd": 20.662330806255
+    },
+    "2023": {
+      "id": "c2023",
+      "schema": "trades",
+      "start": "2023-01-01",
+      "end": "2024-01-01",
+      "label": "trades, 2023",
+      "symbol": "6E.v.0",
+      "records": 14315581,
+      "bytes": 687147888,
+      "usd": 17.918777525425
+    }
+  },
+  "compare": [
+    {
+      "label": "ohlcv-1m, 2015-2023",
+      "old_records": 4356126,
+      "new_records": 3114056,
+      "old_usd": 15.903277248144,
+      "new_usd": 11.368747353554,
+      "saving_pct": 28.513178911719006
+    },
+    {
+      "label": "trades, 2015-2023",
+      "old_records": 158719551,
+      "new_records": 150904514,
+      "old_usd": 198.668871581554,
+      "new_usd": 188.886808991432,
+      "saving_pct": 4.923802361310758
+    },
+    {
+      "label": "trades, 2021",
+      "old_records": 12024557,
+      "new_records": 11416158,
+      "old_usd": 15.051108419895,
+      "new_usd": 14.289576888084,
+      "saving_pct": 5.0596375400790095
+    }
+  ]
+}

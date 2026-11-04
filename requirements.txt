@@ -9,3 +9,4 @@ scikit-learn==1.5.2
 scipy==1.17.1
 joblib==1.6.0
 threadpoolctl==3.7.0
+databento==0.90.0                      # metadata cost estimates only so far (approved 2026-11-04)

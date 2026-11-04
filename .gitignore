@@ -31,3 +31,4 @@ reports/**/missing_*.csv
 reports/**/predictions.csv
 reports/**/spread_by_hour.csv
 reports/**/spread_anomalies.csv
+.env
